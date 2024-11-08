@@ -9,8 +9,8 @@ methods that will provide a cohesive approach to creating, displaying, and
 interpreting emblems across applications and platforms.
 
 There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
-Validator Relationship. Assets bearing digital emblems can be analog or digital. The
-difference is in the initial interaction between the asset and the validator. Digital
+Validator Relationship. Assets bearing digital emblems can be analog or digital. They
+differ in the initial interaction between the asset and the validator. Digital
 Emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
 affect how a validator interprets and trusts the assertions made within the emblem.
 The relationship between the asset and the validator will influence requirements on how
@@ -20,13 +20,13 @@ drivers in the development of a digital emblem architecture.
 # Initial Scope
 
 To simplify the beginning work for DIEM, the initial scope is limited
-to attested and self-signed emblem types and digital assets that cannot determine if
+to attested and self-signed emblem types and digital assets that must not be able to determine if
 a validator has inspected its digital emblem. This combination encompasses the unique
 challenge of assets and validators being unknown to one another.
 
 The working group is tasked with developing: 1) use cases and requirements related to the
-initial scope, 2)an architecture that captures the relationships between entities utilizing
-digital emblems, 3) a specification on binding assets and digital emblems, and 4) a specification
+initial scope, 2) an architecture that captures the relationships between entities utilizing
+digital emblems, 3) a specification on binding digital emblems to assets, and 4) a specification
 for discovery mechanisms supported by the initial scope.
 
 The working group will liaise with other IETF WGs (e.g., SCITT, SPICE, COSE, JOSE, etc.) when
@@ -41,6 +41,6 @@ The DIEM WG will work on the following milestones for the defined scope:
 
 1. Use cases and requirements for the initial target scenarios (Informational)
 2. Architecture document containing a taxonomy and overall information flows (Informational)
-3. A protocol specification describing the binding of assets to emblems (Proposed Standard or Experimental)
+3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental)
 4. A protocol specification describing the emblem discovery mechanism for the initial use cases (Proposed Standard
 or Experimental)
