@@ -29,7 +29,7 @@ initial scope, 2)an architecture that captures the relationships between entitie
 digital emblems, 3) a specification on binding assets and digital emblems, and 4) a specification
 for discovery mechanisms supported by the initial scope.
 
-The working group will liaise with other IETF WGs (e.g., SCITT, SPICE, COSE, JOSE, etc.) when
+The working group will liaise with appropriate organizations and relevant IETF WGs when
 defining emblem formats, validation, and discovery mechanisms to facilitate re-use of existing
 protocols and capabilities.
 
