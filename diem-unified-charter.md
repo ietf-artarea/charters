@@ -20,7 +20,9 @@ drivers in the development of a digital emblem architecture.
 # Initial Scope
 
 To simplify the beginning work for DIEM, the initial scope is limited
-to attested and self-signed emblem types and digital assets that cannot determine if
+to attested (e.g., an emblem issuer is independent of the asset, but is attesting to
+the asset's right to claim protection) and self-signed (e.g., an emblem issuer is the
+entity controlling the protected asset) emblem types and digital assets that cannot determine if
 a validator has inspected its digital emblem. This combination encompasses the unique
 challenge of assets and validators being unknown to one another.
 
