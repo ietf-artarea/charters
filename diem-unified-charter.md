@@ -20,7 +20,9 @@ drivers in the development of a digital emblem architecture.
 # Initial Scope
 
 To simplify the beginning work for DIEM, the initial scope is limited
-to attested and self-signed emblem types and digital assets that must not be able to determine if
+to attested (e.g., an emblem issuer is independent of the asset, but is attesting to
+the asset's right to claim protection) and self-signed (e.g., an emblem issuer is the
+entity controlling the protected asset) emblem types and digital assets that must not be able to determine if
 a validator has inspected its digital emblem. This combination encompasses the unique
 challenge of assets and validators being unknown to one another.
 
@@ -29,7 +31,7 @@ initial scope, 2) an architecture that captures the relationships between entiti
 digital emblems, 3) a specification on binding digital emblems to assets, and 4) a specification
 for discovery mechanisms supported by the initial scope.
 
-The working group will liaise with other IETF WGs (e.g., SCITT, SPICE, COSE, JOSE, etc.) when
+The working group will liaise with appropriate organizations and relevant IETF WGs when
 defining emblem formats, validation, and discovery mechanisms to facilitate re-use of existing
 protocols and capabilities.
 
