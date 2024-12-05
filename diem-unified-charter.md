@@ -2,14 +2,15 @@
 
 Digital Emblems provide a mechanism for conveying a set of attributes
 bound to an asset that is presented to a validator and
-attested to by an issuer.
+asserted by an issuer.
 
 The DIEM WG seeks to define a standard architecture, set of emblem types, and presentation
 methods that will provide a cohesive approach to creating, displaying, and
 interpreting emblems across applications and platforms.
 
 There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
-Validator Relationship. Assets bearing digital emblems can be analog or digital. They
+Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
+digital (e.g., a web server). They
 differ in the initial interaction between the asset and the validator. Digital
 Emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
 affect how a validator interprets and trusts the assertions made within the emblem.
@@ -19,12 +20,9 @@ drivers in the development of a digital emblem architecture.
 
 # Initial Scope
 
-To simplify the beginning work for DIEM, the initial scope is limited
-to attested (e.g., an emblem issuer is independent of the asset, but is attesting to
-the asset's right to claim protection) and self-signed (e.g., an emblem issuer is the
-entity controlling the protected asset) emblem types and digital assets that cannot determine if
-a validator has inspected its digital emblem. This combination encompasses the unique
-challenge of assets and validators being unknown to one another.
+The DIEM WG will initially consider use cases for assets with bindings to emblem types where
+validation of the emblem is indistinguishable from observation of the emblem.
+This encompasses the unique challenge of assets and validators remaining unknown to one another.
 
 The working group is tasked with developing: 1) use cases and requirements related to the
 initial scope, 2) an architecture that captures the relationships between entities utilizing
@@ -34,8 +32,6 @@ for discovery mechanisms supported by the initial scope.
 The working group will liaise with appropriate organizations and relevant IETF WGs when
 defining emblem formats, validation, and discovery mechanisms to facilitate re-use of existing
 protocols and capabilities.
-
-Other use cases and scenarios can be added by re-chartering of the working group.
 
 ## Deliverables
 
