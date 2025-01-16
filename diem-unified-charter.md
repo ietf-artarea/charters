@@ -20,9 +20,14 @@ drivers in the development of a digital emblem architecture.
 
 # Initial Scope
 
-The DIEM WG will initially consider use cases for assets with bindings to emblem types where
-validation of the emblem is indistinguishable from observation of the emblem.
-This encompasses the unique challenge of assets and validators remaining unknown to one another.
+The working group will focus its initial work on assets that are discovered by use
+of digital communication as the primary interaction method that have the
+unique challenge of the validator remaining unknown to the operator of the asset.
+Other use cases for future consideration may also cover assets that lack this requirement
+or even require separate digital discovery. The WG will ensure maximum reuse of work
+for emblem representation and binding. A discovery
+mechanism for the initial work will only be specified by this group after the initial emblem
+binding protocol is completed (see the Deliverables section below).”
 
 The working group is tasked with developing: 1) use cases and requirements related to the
 initial scope, 2) an architecture that captures the relationships between entities utilizing
