@@ -1,12 +1,25 @@
 # Introduction
 
-Digital Emblems provide a mechanism for conveying a set of attributes
-bound to an asset that is presented to a validator and
-asserted by an issuer.
+An emblem is a device, symbol, or figure adopted and used as an identifying mark.
+As such, emblems provide a mechanism for conveying a set of attributes
+bound to an asset. An emblem may be presented to a validator and attributes are asserted by an issuer.
 
-The DIEM WG seeks to define a standard architecture, set of emblem types, and presentation
-methods that will provide a cohesive approach to creating, displaying, and
-interpreting emblems across applications and platforms.
+In culture, emblems such as a flag, badge or coat of arms communicate group identity.
+In speech, emblems are specific nonverbal gestures or signals that have a direct verbal translation and are widely understood within a particular culture or community.
+The emblems of the International Committee of the Red Cross (ICRC)  are symbols of protection under the Geneva Conventions and are to be worn by all medical and humanitarian personnel and also displayed on their vehicles and buildings while they are in an active warzone, and all military forces operating in an active warzone must not attack entities displaying these emblems.
+ISO 7010 defines a set of emblems that can be used to identify hazards, these include the skull and crossbones for toxic material, the ionizing radiation symbol and the biological hazard symbol.
+Today often these emblems/symbols require a sense of sight, or touch to become known to the receiver.
+
+There is a need to sense emblems/symbols through digital communication channels.
+The work of this group therefore focuses on digital emblems that extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
+The presence of a digital emblem represents a new signal available to cyber operators, one which can be combined with existing operational procedures to reduce uncertainty and improve decision making. 
+
+The DIEM WG will define an architecture, set of emblem types, and presentation
+methods to creating, displaying, validadting and
+interpreting emblems across applications and platforms in a cohesive way.
+The initial scope of the working group will assume that an emblem is also discovered thought digital communication,
+however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
+
 
 There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
 Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
