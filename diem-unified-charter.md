@@ -21,7 +21,7 @@ Therefore, to be effective, the semantics of an emblem must be well known, easil
 
 There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
 Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
-digital (e.g., a web page), however, ther need to be a digital representation that is used
+digital (e.g., a web page), however, there need to be a digital representation that is used
 for validation using digital communication.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
