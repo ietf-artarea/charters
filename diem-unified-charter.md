@@ -29,7 +29,7 @@ Emblems may be observed by verifiers without the knowledge of the bearer display
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-The architecture, spcified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
+The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
 
 # Initial Scope
 
