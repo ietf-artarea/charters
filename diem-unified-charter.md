@@ -18,6 +18,19 @@ The relationship between the asset and the validator will influence requirements
 validators retrieve digital emblems for the asset. These three dimensions will be key
 drivers in the development of a digital emblem architecture.
 
+# Archtectural Consideration
+
+"To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
+The entity that bears the emblem is respectively the bearer or emblem holder. This can be a separate entity
+from the emblem issuer.
+
+To "verify an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
+Emblems may be observed by verifiers without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
+However, verification can be optional as long is the emblem can be correctly interpreted.
+Therefore, to be effective, the semantics of an emblem must be well known, and the emblem must be easily recognizable, and distinguishable from other emblems.
+
+The architecture, spcified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
+
 # Initial Scope
 
 The working group will focus its initial work on assets that are discovered by use
