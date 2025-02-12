@@ -15,7 +15,7 @@ The work of this group therefore focuses on digital emblems that extend the rang
 The presence of a digital emblem represents a new signal available to cyber operators, one which can be combined with existing operational procedures to reduce uncertainty and improve decision making. 
 
 The DIEM WG will define an architecture, set of emblem types, and presentation
-methods to creating, displaying, validadting and
+methods for creating, displaying, validating and
 interpreting emblems across applications and platforms in a cohesive way.
 The initial scope of the working group will assume that an emblem is also discovered thought digital communication,
 however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
