@@ -8,16 +8,6 @@ The DIEM WG seeks to define a standard architecture, set of emblem types, and pr
 methods that will provide a cohesive approach to creating, displaying, and
 interpreting emblems across applications and platforms.
 
-There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
-Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
-digital (e.g., a web server). They
-differ in the initial interaction between the asset and the validator. Digital
-Emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
-affect how a validator interprets and trusts the assertions made within the emblem.
-The relationship between the asset and the validator will influence requirements on how
-validators retrieve digital emblems for the asset. These three dimensions will be key
-drivers in the development of a digital emblem architecture.
-
 # Archtectural Consideration
 
 "To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
@@ -28,6 +18,17 @@ To "verify an emblem" means to confirm the authenticity or legitimacy of a parti
 Emblems may be observed by verifiers without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
+
+There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
+Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
+digital (e.g., a web page), however, ther need to be a digital representation that is used
+for validation using digital communication.
+
+Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
+affect how a validator interprets and trusts the assertions made within the emblem.
+The relationship between the asset and the validator will influence requirements on how
+validators retrieve digital emblems for the asset. These three dimensions will be key
+drivers in the development of a digital emblem architecture.
 
 The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
 
