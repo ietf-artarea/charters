@@ -24,7 +24,7 @@ The working group will focus its initial work on assets that are discovered by u
 of digital communication such as use of DNS or at a well-know location on a host identified
 by a hostname or IP address. These discovery mechansisms have the
 unique challenge of the validator remaining unknown to the operator of the asset.
-Specifically the design of other discovery mechanisms, likethe use of QRCodes, NFC, or Bluetooth
+Specifically the design of other discovery mechanisms, like the use of QRCodes, NFC, or Bluetooth
 is out-of-scope.
 
 Other use cases for future consideration may also cover assets that lack this requirement
