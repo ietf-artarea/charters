@@ -45,7 +45,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    Initially, the working group will develop and maintain an informational use cases and requirements document, but is not required to request publication of this document. This document must describe at least one digital emblem suitable for indicating protection under international humanitarian law and at least one digital emblem suitable for indicating the presence of a hazard or a certification of the absence of a hazard. This work must assume any specific serialization format or discovery mechanisms.
    As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match discovery protocols used in the initial scope, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems. The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC for DNS records, or TLS for well known HTTPS URLs. 
 
-2. Architecture document containing a taxonomy, data model, and overall information flows (Informational)
+2. An architecture containing a taxonomy, data model, and overall information flows (Informational)
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental)
