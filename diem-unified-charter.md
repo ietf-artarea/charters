@@ -49,7 +49,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental)
-   After the architecture and data model are published as an informational RFC, the working group will specify a single concrete serialization for digital emblems. This document may describe a mandatory to implement securing mechanism. If a securing mechanism is described, this document must describe at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism. This document will be published as a proposed standard RFC, and must not assume any specific discovery mechanisms, or use cases.
+   After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases . This document may describe a mandatory to implement securing mechanism. If a securing mechanism is described, this document must describe at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism. This protocol is intended for proposed standard, and must not assume any specific discovery mechanisms.
 
 4. A protocol specification describing an DNS-based emblem discovery mechanism (Proposed Standard
 or Experimental)
