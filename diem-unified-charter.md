@@ -19,8 +19,7 @@ Emblems may be observed by verifiers without the knowledge of the bearer display
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
-Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
+Assets bound to digital emblems can be analog (e.g., a vehicle) or
 digital (e.g., a web page), however, there need to be a digital representation that is used
 for validation using digital communication.
 
