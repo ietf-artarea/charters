@@ -55,5 +55,5 @@ The DIEM WG will work on the following deliverables for the defined scope strict
 or Experimental)
   A proposed standard describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. This document may describe a mandatory to implement securing mechanism. This document will be published as a proposed standard RFC, and must not assume any specific serialization formats, or use cases.
 
-5. Applicability Statement
+5. A specification defining emblem types and their serialization and discovery for one or two use cases (Proposed Standard or Experimental)
    A proposed standard describing the use of the Initial Serialization and Initial Discovery Mechanism for no more than two of the emblem types described in the use cases and requirements document. This document must be published as a proposed standard RFC, and must not be adopted until after the publication of the Initial Serialization and Initial Discovery Mechanism has been requested.
