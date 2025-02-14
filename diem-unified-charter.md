@@ -12,7 +12,7 @@ Today often these emblems/symbols require a sense of sight, or touch to become k
 
 There is a need to sense emblems/symbols through digital communication channels.
 The work of this group therefore focuses on digital emblems that extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
-The presence of a digital emblem represents a new signal available to cyber operators, one which can be combined with existing operational procedures to reduce uncertainty and improve decision making. 
+The presence of a digital emblem represents a new signal available to cyber operators. 
 
 The DIEM WG will define an architecture, set of emblem types, and presentation
 methods for creating, displaying, validating and
