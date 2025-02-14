@@ -21,15 +21,28 @@ The initial scope of the working group will assume that an emblem is also discov
 however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
 
 
-There are three dimensions to digital emblems: Asset Type, Emblem Type, and 
-Validator Relationship. Assets bound to digital emblems can be analog (e.g., a vehicle) or
-digital (e.g., a web server). They
-differ in the initial interaction between the asset and the validator. Digital
-Emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
+# Archtectural Consideration
+
+"To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
+The entity that bears the emblem is respectively the bearer or emblem holder. This can be a separate entity
+from the emblem issuer.
+
+To "verify an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
+Emblems may be observed by verifiers without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
+However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
+Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
+
+Assets bound to digital emblems can be analog (e.g., a vehicle) or
+digital (e.g., a web page), however, there need to be a digital representation that is used
+for validation using digital communication.
+
+Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
 affect how a validator interprets and trusts the assertions made within the emblem.
-The relationship between the asset and the validator will influence requirements on how
+The communication between the asset and the validator will influence requirements on how
 validators retrieve digital emblems for the asset. These three dimensions will be key
 drivers in the development of a digital emblem architecture.
+
+The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
 
 # Initial Scope
 
