@@ -49,8 +49,8 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental)
-   After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases . This document may describe a mandatory to implement securing mechanism. If a securing mechanism is described, this document must describe at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism. This protocol is intended for proposed standard, and must not assume any specific discovery mechanisms.
+   After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases. This specification may describe a mandatory to implement securing mechanism. If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. This protocol specification is intended for proposed standard or experimental, and must not assume any specific discovery mechanisms.
 
-4. A protocol specification describing an DNS-based emblem discovery mechanism (Proposed Standard
+4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard
 or Experimental)
-  A proposed standard describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. This document may describe a mandatory to implement securing mechanism.
+  A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. This specification may describe a mandatory to implement securing mechanism.
