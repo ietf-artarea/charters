@@ -25,7 +25,7 @@ for validation using digital communication.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will
 affect how a validator interprets and trusts the assertions made within the emblem.
-The relationship between the asset and the validator will influence requirements on how
+The communication between the asset and the validator will influence requirements on how
 validators retrieve digital emblems for the asset. These three dimensions will be key
 drivers in the development of a digital emblem architecture.
 
