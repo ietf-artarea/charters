@@ -33,7 +33,7 @@ for emblem representation and binding. A discovery
 mechanism for the initial work will only be specified by this group after the initial emblem
 binding protocol is completed (see the Deliverables section below).
 
-The working group will coordinate with relevant working groups within the IETF and other SDOs to facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
+The working group will facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
 The working group will not produce any standard track generic serialization formats. The working group will not produce any standard track extensions to the DNS. The working group will not develop novel security mechanisms, cryptographic primitives, or digital signature schemes. 
 
 
