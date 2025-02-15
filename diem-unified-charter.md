@@ -29,7 +29,7 @@ Emblems may be observed by validators without the knowledge of the bearer displa
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Assets bound to digital emblems can be analog (e.g., a vehicle) or digital (e.g., a web page), however, there need to be a digital representation that is used for validation using digital communication.
+Assets bound to digital emblems can be analog (e.g., a vehicle) or digital (e.g., a web server), however, there need to be a digital representation that is used for validation using digital communication.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will affect how a validator interprets and trusts the assertions made within the emblem.
 The communication between the asset and the validator will influence requirements on how validators retrieve digital emblems for the asset. 
