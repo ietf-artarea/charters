@@ -73,5 +73,5 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    This protocol specification is intended for proposed standard or experimental, and must not assume any specific discovery mechanisms.
 
 4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard or Experimental):
-  A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. 
-  This specification may describe a mandatory to implement securing mechanism.
+   A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. 
+   This specification may describe a mandatory to implement securing mechanism.
