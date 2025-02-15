@@ -33,7 +33,7 @@ Assets bound to digital emblems can be analog (e.g., a vehicle) or digital (e.g.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will affect how a validator interprets and trusts the assertions made within the emblem.
 The communication between the asset and the validator will influence requirements on how validators retrieve digital emblems for the asset. 
-These three dimensions will be key drivers in the development of a digital emblem architecture.
+These requirements will be key drivers in the development of a digital emblem architecture.
 
 The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
 
