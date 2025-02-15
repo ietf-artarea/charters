@@ -72,6 +72,5 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
    This protocol specification is intended for proposed standard or experimental, and must not assume any specific discovery mechanisms.
 
-4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard or Experimental)
-  A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. 
+4. A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems.
   This specification may describe a mandatory to implement securing mechanism.
