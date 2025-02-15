@@ -20,7 +20,7 @@ The initial scope of the working group will assume that an emblem is also discov
 
 # Archtectural Consideration
 
-"To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
+"To bear an emblem" means to present or display a symbol, figure, or device as an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This can be a separate entity from the emblem issuer.
 
@@ -29,7 +29,7 @@ Emblems may be observed by validators without the knowledge of the bearer displa
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Assets bound to digital emblems can be analog (e.g., a vehicle) or digital (e.g., a web page), however, there need to be a digital representation that is used for validation using digital communication.
+Assets bearing to digital emblems can be analog (e.g., a vehicle) or digital (e.g., a web page), however, there need to be a digital representation that is used for validation using digital communication.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will affect how a validator interprets and trusts the assertions made within the emblem.
 The communication between the asset and the validator will influence requirements on how validators retrieve digital emblems for the asset. 
@@ -39,7 +39,8 @@ The architecture, specified by this group, must be flexible enough to support mu
 
 # Initial Scope
 
-The working group will focus its initial work on assets that are discovered by use of digital communication such as use of DNS or at a well-know location on a host identified by a hostname or IP address. These discovery mechansisms have the unique challenge of the validator remaining unknown to the operator of the asset.
+The working group will focus its initial work on assets that are discovered by use of digital communication such as use of DNS or at a well-know location on a host identified by a hostname or IP address. 
+These discovery mechansisms have the unique challenge of the validator remaining unknown to the bearer or holder.
 Specifically the design of other discovery mechanisms using proximity-based protocols such as  QRCodes, NFC, or Bluetooth is out-of-scope.
 
 Other use cases for future consideration may also cover assets that lack this requirement or even require separate digital discovery. The WG will ensure maximum reuse of work for emblem representation and binding. 
