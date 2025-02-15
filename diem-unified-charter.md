@@ -24,7 +24,7 @@ The initial scope of the working group will assume that an emblem is also discov
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This can be a separate entity from the emblem issuer.
 
-To "validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
+"To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
 However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
@@ -55,23 +55,23 @@ The working group will not develop novel security mechanisms, cryptographic prim
 
 The DIEM WG will work on the following deliverables for the defined scope strictly in this order:
 
-1. Use cases and requirements for the initial target scenarios (Informational)
+1. Use cases and requirements for the initial target scenarios (Informational):
    Initially, the working group will develop and maintain an informational use cases and requirements document, but is not required to request publication of this document. 
    This document must describe at least one digital emblem suitable for indicating protection under international humanitarian law and at least one digital emblem suitable for indicating the presence of a hazard or a certification of the absence of a hazard. 
    This work must assume any specific serialization format or discovery mechanisms.
    As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match discovery protocols used in the initial scope, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems. 
    The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC for DNS records, or TLS for well known HTTPS URLs. 
 
-2. An architecture containing a taxonomy, data model, and overall information flows (Informational)
+2. An architecture containing a taxonomy, data model, and overall information flows (Informational):
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
-3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental)
+3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental):
    After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases. 
    This specification may describe a mandatory to implement securing mechanism. 
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
    This protocol specification is intended for proposed standard or experimental, and must not assume any specific discovery mechanisms.
 
-4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard or Experimental)
+4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard or Experimental):
   A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. 
   This specification may describe a mandatory to implement securing mechanism.
