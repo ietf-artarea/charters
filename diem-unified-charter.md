@@ -18,7 +18,7 @@ The DIEM WG will define an architecture, set of emblem types, and presentation m
 The initial scope of the working group will assume that an emblem is also discovered thought digital communication, however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
 
 
-# Archtectural Consideration
+# Architectural Consideration
 
 "To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
