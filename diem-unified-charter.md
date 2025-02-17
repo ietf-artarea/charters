@@ -6,7 +6,8 @@ An emblem may be presented to a validator and attributes are asserted by an issu
 
 In culture, emblems such as a flag, badge or coat of arms communicate group identity.
 In speech, emblems are specific nonverbal gestures or signals that have a direct verbal translation and are widely understood within a particular culture or community.
-The emblems of the International Committee of the Red Cross (ICRC)  are symbols of protection under the Geneva Conventions.
+Under International Humanitarian Law (IHL), the red cross, red crescent, and red crystal emblems are symbols of protection.
+Similarly, the "blue shield" is another IHL emblem that marks cultural property under special protection.
 ISO 7010 defines a set of emblems that can be used to identify hazards, these include the skull and crossbones for toxic material, the ionizing radiation symbol and the biological hazard symbol.
 Today often these emblems/symbols require a sense of sight, or touch to become known to the receiver.
 
