@@ -40,7 +40,7 @@ The architecture, specified by this group, must be flexible enough to support mu
 
 # Initial Scope
 
-The working group will focus its initial work on assets that are discovered by use of digital communication such as use of DNS or at a well-know location on a host identified by a hostname or IP address. 
+The working group will focus its initial work on assets that are discovered by use of digital communication such as use of DNS or at a well-known location on a host identified by a hostname or IP address. 
 These discovery mechansisms have the unique challenge of the validator remaining unknown to the bearer or holder.
 Specifically the design of other discovery mechanisms using proximity-based protocols such as  QRCodes, NFC, or Bluetooth is out-of-scope.
 
