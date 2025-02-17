@@ -17,12 +17,9 @@ The DIEM WG will define an architecture and discovery mechanism enabling digital
 
 # Architectural Consideration
 
-"To issue or produce" an emblem, is to design the identifying mark and its associated attributes.
-The emblem issuer's role is to ensure that the identifying mark is easy to recognize and well understood.
-
 "To bear an emblem" means to present or display an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
-This can be a separate entity from the emblem issuer.
+This can be a separate entity from the creator or original designer of the emblem.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
@@ -31,7 +28,7 @@ Therefore, to be effective, the semantics of an emblem must be well known, easil
 
 Digital emblems can be borne or presented by entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
 
-Digital emblems can be unsigned, self-signed, or signed by the emblem issuer.
+Digital emblems can be unsigned, self-signed, or signed by a trust anchor.
 How a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
 
 # Initial Scope
