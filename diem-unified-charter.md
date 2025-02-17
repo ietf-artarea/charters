@@ -16,8 +16,7 @@ The work of this group therefore focuses on digital emblems that extend the rang
 The presence of a digital emblem represents a new signal available to cyber operators. 
 
 The DIEM WG will define an architecture, set of emblem types, and presentation methods for creating, displaying, validating and interpreting emblems across applications and platforms in a cohesive way.
-The initial scope of the working group will assume that an emblem is also discovered thought digital communication, however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
-
+The initial scope of the working group will assume that an emblem is also discovered through digital communication, however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
 
 # Architectural Consideration
 
@@ -27,29 +26,30 @@ This can be a separate entity from the emblem issuer.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
-However, cryptographic verification can be optional as long is the emblem can be correctly interpreted.
+Cryptographic verification can be optional as long is the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Assets bearing to digital emblems can be analog (e.g., a vehicle) or digital (e.g., a web page), however, there need to be a digital representation that is used for validation using digital communication.
+Digital emblems can be bound to entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
 
 Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will affect how a validator interprets and trusts the assertions made within the emblem.
-The communication between the asset and the validator will influence requirements on how validators retrieve digital emblems for the asset. 
+The communication between an entity that bears an emblem and a validator will influence requirements on how validators retrieve digital emblems. 
 These requirements will be key drivers in the development of a digital emblem architecture.
 
 The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
 
 # Initial Scope
 
-The working group will focus its initial work on assets that are discovered by use of digital communication such as use of DNS or at a well-known location on a host identified by a hostname or IP address. 
-These discovery mechansisms have the unique challenge of the validator remaining unknown to the bearer or holder.
-Specifically the design of other discovery mechanisms using proximity-based protocols such as  QRCodes, NFC, or Bluetooth is out-of-scope.
+The working group will focus its initial work on emblems that are discovered by use of digital communication such as use of DNS or at a well-known location on a host identified by a hostname or IP address.
+Additionally, these discovery mechansisms need to address the unique challenge of the validator remaining unknown to the operator of the entity that bears that emblem.
+Specifically the design of other discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
 
-Other use cases for future consideration may also cover assets that lack this requirement or even require separate digital discovery. The WG will ensure maximum reuse of work for emblem representation and binding. 
+Other use cases for future consideration may also cover entities that lack this requirement or even require separate digital discovery.
+The WG will ensure maximum reuse of work for emblem representation and binding. 
 A discovery mechanism for the initial work will only be specified by this group after the initial emblem binding protocol is completed (see the Deliverables section below).
 
 The working group will facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
-The working group will not produce any standard track generic serialization formats. 
-The working group will not produce any standard track extensions to the DNS. 
+The working group will not produce any standards track generic serialization formats. 
+The working group will not produce any standards track extensions to the DNS. 
 The working group will not develop novel security mechanisms, cryptographic primitives, or digital signature schemes. 
 
 
@@ -68,7 +68,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
-3. A protocol specification describing the binding of emblems to assets (Proposed Standard or Experimental):
+3. A protocol specification describing the binding of emblems to entities (Proposed Standard or Experimental):
    After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases. 
    This specification may describe a mandatory to implement securing mechanism. 
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
