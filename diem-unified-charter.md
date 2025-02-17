@@ -2,6 +2,7 @@
 
 An emblem is a device, symbol, or figure adopted and used as an identifying mark.
 In culture, emblems such as a flag, badge or coat of arms communicate group identity.
+Such emblems are often comprised of a set of attributes each with symbolic meaning.
 In speech, emblems are specific nonverbal gestures or signals that have a direct verbal translation and are widely understood within a particular culture or community.
 Under International Humanitarian Law (IHL), the red cross, red crescent, and red crystal emblems are symbols of protection.
 Similarly, the "blue shield" is another IHL emblem that marks cultural property under special protection.
@@ -29,7 +30,7 @@ Therefore, to be effective, the semantics of an emblem must be well known, easil
 Digital emblems can be borne or presented by entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
 
 Digital emblems can be unsigned, self-signed, or signed by a trust anchor.
-How a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
+Which attributes an emblem contains, and how a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
 
 # Initial Scope
 
