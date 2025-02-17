@@ -40,7 +40,7 @@ The architecture, specified by this group, must be flexible enough to support mu
 # Initial Scope
 
 The working group will focus its initial work on emblems that are discovered by use of digital communication such as use of DNS or at a well-known location on a host identified by a hostname or IP address.
-Additionally, these discovery mechansisms need to address the unique challenge of the validator remaining unknown to the operator of the entity that bears that emblem.
+Additionally, these discovery mechansisms need to address the unique challenge of the validator remaining unknown bearer of the emblem.
 Specifically the design of other discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
 
 Other use cases for future consideration may also cover entities that lack this requirement or even require separate digital discovery.
