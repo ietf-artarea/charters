@@ -17,10 +17,9 @@ The presence of a digital emblem represents a new signal available to cyber oper
 The DIEM WG will define an architecture, set of emblem types, and presentation methods for creating, displaying, validating and interpreting emblems across applications and platforms in a cohesive way.
 The initial scope of the working group will assume that an emblem is also discovered through digital communication, however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
 
-
 # Architectural Consideration
 
-"To bear an emblem" means to use or adopt a symbol, figure, or device as an identifying mark. 
+"To bear an emblem" means to present or display a symbol, figure, or device as an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This can be a separate entity from the emblem issuer.
 
