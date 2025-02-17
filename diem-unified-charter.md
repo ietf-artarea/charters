@@ -1,9 +1,6 @@
 # Introduction
 
 An emblem is a device, symbol, or figure adopted and used as an identifying mark.
-As such, emblems provide a mechanism for conveying a set of attributes bound to an asset. 
-An emblem may be presented to a validator and attributes are asserted by an issuer.
-
 In culture, emblems such as a flag, badge or coat of arms communicate group identity.
 In speech, emblems are specific nonverbal gestures or signals that have a direct verbal translation and are widely understood within a particular culture or community.
 Under International Humanitarian Law (IHL), the red cross, red crescent, and red crystal emblems are symbols of protection.
@@ -12,46 +9,43 @@ ISO 7010 defines a set of emblems that can be used to identify hazards, these in
 Today often these emblems/symbols require a sense of sight, or touch to become known to the receiver.
 
 There is a need to sense emblems/symbols through digital communication channels.
-The work of this group therefore focuses on digital emblems that extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
+
+The DIEM WG extends the range of identifying marks from the physical (visual and tactile) to the digital realm.
 The presence of a digital emblem represents a new signal available to cyber operators. 
 
-The DIEM WG will define an architecture, set of emblem types, and presentation methods for creating, displaying, validating and interpreting emblems across applications and platforms in a cohesive way.
-The initial scope of the working group will assume that an emblem is also discovered through digital communication, however, ideally the methods defined for emblem creation and validation should not depend on this assumption.
+The DIEM WG will define an architecture and discovery mechanism enabling digital emblems to be presented and validated across applications and platforms in a cohesive way.
 
 # Architectural Consideration
 
-"To bear an emblem" means to present or display a symbol, figure, or device as an identifying mark. 
+"To issue or produce" an emblem, is to design the identifying mark and its associated attributes.
+The emblem issuer's role is to ensure that the identifying mark is easy to recognize and well understood.
+
+"To bear an emblem" means to present or display an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This can be a separate entity from the emblem issuer.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
-Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific verifier upon request.
-Cryptographic verification can be optional as long is the emblem can be correctly interpreted.
+Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
+Cryptographic verification can be optional as long as the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Digital emblems can be bound to entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
+Digital emblems can be borne or presented by entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
 
-Digital emblems can fall into multiple types (e.g., self-signed, attested, etc.) that will affect how a validator interprets and trusts the assertions made within the emblem.
-The communication between an entity that bears an emblem and a validator will influence requirements on how validators retrieve digital emblems. 
-These requirements will be key drivers in the development of a digital emblem architecture.
-
-The architecture, specified by this group, must be flexible enough to support multiple serialization formats, securing mechanisms, discovery mechanisms, and use cases. 
+Digital emblems can be unsigned, self-signed, or signed by the emblem issuer.
+How a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
 
 # Initial Scope
 
-The working group will focus its initial work on emblems that are discovered by use of digital communication such as use of DNS or at a well-known location on a host identified by a hostname or IP address.
-Additionally, these discovery mechansisms need to address the unique challenge of the validator remaining unknown to the operator of the entity that bears that emblem.
-Specifically the design of other discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
-
-Other use cases for future consideration may also cover entities that lack this requirement or even require separate digital discovery.
-The WG will ensure maximum reuse of work for emblem representation and binding. 
+The DIEM WG will ensure maximum reuse of work for emblem representation and binding. 
 A discovery mechanism for the initial work will only be specified by this group after the initial emblem binding protocol is completed (see the Deliverables section below).
 
+The working group is limited to specifying discovery mechanisms that rely on digital communication such as the use of DNS or well-known locations on a host identified by a hostname or IP address.
+The working group working group must not propose discovery mechanisms or binding solutions that enable validation to be distinguishable from currently existing interactions with the emblem bearer. 
+The design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
 The working group will facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
 The working group will not produce any standards track generic serialization formats. 
 The working group will not produce any standards track extensions to the DNS. 
 The working group will not develop novel security mechanisms, cryptographic primitives, or digital signature schemes. 
-
 
 # Deliverables
 
@@ -68,12 +62,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
-3. A protocol specification describing the binding of emblems to entities (Proposed Standard or Experimental):
-   After the architecture and data model are finished, the working group will specify a single concrete serialization for digital emblems and emblems types for one or two of the initial use cases. 
+3. A protocol specification describing the discovery of digital emblems (Proposed Standard or Experimental):
+   After the architecture and data model are finished, the working group will specify a binding and discovery mechanism addressing one or two of the initial use cases. 
    This specification may describe a mandatory to implement securing mechanism. 
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
-   This protocol specification is intended for proposed standard or experimental, and must not assume any specific discovery mechanisms.
-
-4. A specification describing an DNS-based emblem discovery mechanism (Proposed Standard or Experimental):
-   A proposed standard or experimental specification describing the use of the DNS as the initial presentation/discovery mechanism for digital emblems. 
-   This specification may describe a mandatory to implement securing mechanism.
