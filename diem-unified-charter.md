@@ -10,7 +10,7 @@ Today often these emblems/symbols require a sense of sight, or touch to become k
 
 There is a need to sense emblems/symbols through digital communication channels.
 
-The DIEM WG extends the range of identifying marks from the physical (visual and tactile) to the digital realm.
+Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
 The presence of a digital emblem represents a new signal available to cyber operators. 
 
 The DIEM WG will define an architecture and discovery mechanism enabling digital emblems to be presented and validated across applications and platforms in a cohesive way.
