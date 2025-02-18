@@ -24,6 +24,7 @@ This is often a separate entity from the creator or original designer of the emb
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
+Cryptographic verification may or may not be used based on the in-place security mechanisms of the communication channel bearing the emblem.
 To be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
 Digital emblems can be integrity-protected by another layer, self-signed or signed by a trust anchor.
