@@ -37,7 +37,7 @@ The DIEM WG will ensure maximum reuse of work for emblem representation and bind
 A discovery mechanism for the initial work will only be specified by this group after the initial emblem binding protocol is completed (see the Deliverables section below).
 
 The working group is initially limited to specifying discovery mechanisms that rely on digital communication such as the use of DNS or well-known locations on a host identified by a hostname or IP address.
-Only discovery mechanisms where the validation remains unknown to the bearer of the emblem are considered in the initial scope.
+Only discovery mechanisms where the validation, by default, remains unknown to the bearer of the emblem are considered in the initial scope.
 The design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
 The working group will facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
 The working group will not produce any standards track generic serialization formats. 
