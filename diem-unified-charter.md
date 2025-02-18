@@ -20,7 +20,7 @@ The DIEM WG will define an architecture and discovery mechanism enabling digital
 
 "To bear an emblem" means to present or display an identifying mark. 
 The entity that bears the emblem is respectively the bearer or emblem holder. 
-This can be a separate entity from the creator or original designer of the emblem.
+This is often a separate entity from the creator or original designer of the emblem.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
