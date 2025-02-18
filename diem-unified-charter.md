@@ -27,7 +27,6 @@ Emblems may be observed by validators without the knowledge of the bearer displa
 Cryptographic verification can be optional as long as the emblem can be correctly interpreted.
 Therefore, to be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Digital emblems can be borne or presented by entities that are analog (e.g., a vehicle) or digital (e.g., a web page), however, there needs to be a digital representation that is used for validation using digital communication.
 
 Digital emblems can be unsigned, self-signed, or signed by a trust anchor.
 Which attributes an emblem contains, and how a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
