@@ -26,7 +26,7 @@ This is often a separate entity from the creator or original designer of the emb
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
 To be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
 
-Digital emblems can be self-signed or signed by a trust anchor.
+Digital emblems can be integrity-protected by another layer, self-signed or signed by a trust anchor.
 Which attributes an emblem contains, and how a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
 
 # Initial Scope
