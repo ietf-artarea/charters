@@ -5,7 +5,7 @@ protection governed by International Humanitarian Law (IHL).  Emblems can also
 be used to identify hazards via the skull and crossbones symbol for toxic
 materials or the ionizing radiation symbol for radiation defined by ISO 7010.
 
-There is a need to sense emblems through digital communication channels.
+There is a need to present emblems through digital communication channels.
 
 Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
 The presence of a digital emblem represents a new signal available to cyber operators. 
