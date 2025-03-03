@@ -23,6 +23,7 @@ The entity that bears the emblem is respectively the bearer or emblem holder.
 This is often a separate entity from the creator or original designer of the emblem.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
+Validation may include ensuring that bearer has not forged, stolen, or tampered an emblem.
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
 Cryptographic verification may or may not be used based on the in-place security mechanisms of the communication channel bearing the emblem.
 To be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
@@ -32,8 +33,8 @@ Which attributes an emblem contains, and how a digital emblem is secured and pre
 
 # Initial Scope
 
-The DIEM WG will ensure maximum reuse of work for emblem representation and binding. 
-A discovery mechanism for the initial work will only be specified by this group after the initial emblem binding protocol is completed (see the Deliverables section below).
+The DIEM WG will ensure maximum reuse of work for emblem representation and validation.
+A discovery mechanism for the initial work will only be specified by this group after the initial emblem validation procedure is completed (see the Deliverables section below).
 
 The working group is initially limited to specifying discovery mechanisms that rely on digital communication such as the use of DNS or well-known locations on a host identified by a hostname or IP address.
 Only discovery mechanisms where the validation remains unknown to the bearer of the emblem are considered in the initial scope.
@@ -59,6 +60,6 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the discovery of digital emblems (Proposed Standard or Experimental):
-   After the architecture and data model are finished, the working group will specify a binding and discovery mechanism addressing one or two of the initial use cases. 
+   After the architecture and data model are finished, the working group will specify a validation and discovery mechanism addressing one or two of the initial use cases.
    This specification may describe a mandatory to implement securing mechanism. 
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
