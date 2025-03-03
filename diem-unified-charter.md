@@ -18,11 +18,12 @@ The DIEM WG will define an architecture and discovery mechanism enabling digital
 
 # Architectural Consideration
 
-"To bear an emblem" means to present or display an identifying mark. 
+"To *bear* an emblem" means to present or display an identifying mark.
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This is often a separate entity from the creator or original designer of the emblem.
 
-"To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
+"To *validate* an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point.
+In particular, one can validate an emblem's *binding*, that is, whether the emblem was intended to be presented by its bearer.
 Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
 Cryptographic verification may or may not be used based on the in-place security mechanisms of the communication channel bearing the emblem.
 To be effective, the semantics of an emblem must be well known, easily recognizable, and distinguishable from other emblems.
