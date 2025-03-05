@@ -1,6 +1,6 @@
 # Introduction
 
-Emblems such as the Red Cross, Red Crescent, and Red Crystal can be symbols of
+Emblems such as the Red Cross, Red Crescent, Red Crystal, and Blue Shield can be symbols of
 protection governed by International Humanitarian Law (IHL).  Emblems can also
 be used to identify hazards via the skull and crossbones symbol for toxic
 materials or the ionizing radiation symbol for radiation defined by ISO 7010.
