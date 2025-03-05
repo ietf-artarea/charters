@@ -4,8 +4,6 @@ Emblems such as the Red Cross, Red Crescent, Red Crystal, and Blue Shield can be
 protection governed by International Humanitarian Law (IHL).  Emblems can also
 be identified by other laws or ISO standards that parties need to be able to apply
 to digital infrastructure.
-be used to identify hazards via the skull and crossbones symbol for toxic
-materials or the ionizing radiation symbol for radiation defined by ISO 7010.
 
 There is a need to present emblems through digital communication channels.
 
