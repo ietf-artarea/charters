@@ -27,8 +27,6 @@ Which attributes an emblem contains, and how a digital emblem is secured and pre
 # Initial Scope
 
 The DIEM WG will ensure maximum reuse of work for emblem representation and validation.
-A discovery mechanism for the initial work will only be specified by this group after the initial emblem validation procedure is completed (see the Deliverables section below).
-
 The working group is initially limited to specifying discovery mechanisms that rely on digital communication such as the use of DNS or well-known locations on a host identified by a hostname or IP address.
 Only discovery mechanisms where the validation remains unknown to the bearer of the emblem are considered in the initial scope.
 The design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
