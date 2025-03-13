@@ -49,7 +49,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC for DNS records, or TLS for well known HTTPS URLs. 
 
 2. An architecture containing a taxonomy, data model, and overall information flows (Informational):
-   The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. 
+   The working group will develop a high level architecture and data model that includes a taxonomy defining the terminology to be used in future working group documents but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the discovery of digital emblems (Proposed Standard or Experimental):
