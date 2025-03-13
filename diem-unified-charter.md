@@ -8,7 +8,6 @@ to digital infrastructure.
 There is a need to present emblems through digital communication channels.
 
 Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
-The presence of a digital emblem represents a new signal available to cyber operators. 
 
 The DIEM WG will define an architecture and discovery mechanism enabling digital emblems to be presented and validated across applications and platforms in a cohesive way.
 
