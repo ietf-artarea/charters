@@ -6,17 +6,22 @@ be identified by other laws or ISO standards that parties need to be able to app
 to digital infrastructure.
 
 There is a need to present emblems through digital communication channels.
-
+Emblems presented in such ways are called digital emblems.
 Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
 The presence of a digital emblem represents a new signal available to cyber operators. 
 
 The DIEM WG will define an architecture and discovery mechanism enabling digital emblems to be presented and validated across applications and platforms in a cohesive way.
 
-# Architectural Consideration
+# Terminology
 
-"To bear an emblem" means to present or display an identifying mark. 
+"To bear an emblem" means to present or display and be identified by a digital emblem.
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This is often a separate entity from the creator or original designer of the emblem.
+Identification can be explicit, i.e., the emblem contains an identifier of the bearer, or implicit, for example, an emblem presented over a channel such as TLS can implicitly identify the sender as bearer.
+
+A "discovery mechanism" enables clients to discover emblem bearers such that the emblem bearer can present their emblem to the client.
+For example, a registry providing a list of domain names that provide TLS-endpoints can be a discovery mechanism.
+Clients could search the registry, connect to the endpoint using TLS, and be presented that endpoint's emblems.
 
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Validation may include ensuring that the bearer has not forged, stolen, or tampered with an emblem.
