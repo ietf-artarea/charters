@@ -26,11 +26,10 @@ Which attributes an emblem contains, and how a digital emblem is secured and pre
 
 # Initial Scope
 
-The DIEM WG will ensure maximum reuse of work for emblem representation and validation.
+The DIEM WG will ensure maximum reuse of work for emblem representation and validation, facilitate re-use of existing protocols and capabilities, and ensure that existing standards are leveraged appropriately.
 The working group is initially limited to specifying discovery mechanisms that rely on digital communication such as the use of DNS or well-known locations on a host identified by a hostname or IP address.
 Only discovery mechanisms where the validation remains unknown to the bearer of the emblem are considered in the initial scope.
 The design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
-The working group will facilitate re-use of existing protocols and capabilities and ensure that existing standards are leveraged appropriately.
 The working group will not produce any standards track generic serialization formats. 
 The working group will not produce any standards track extensions to the DNS. 
 The working group will not develop novel security mechanisms, cryptographic primitives, or digital signature schemes. 
@@ -47,7 +46,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC for DNS records, or TLS for well known HTTPS URLs. 
 
 2. An architecture containing a taxonomy, data model, and overall information flows (Informational):
-   The working group will develop a high level architecture and data model but start this work only after the use case and requirements document has reached group consensus. 
+   The working group will develop a high level architecture and data model that includes a taxonomy defining the terminology to be used in future working group documents but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the discovery of digital emblems (Proposed Standard or Experimental):
