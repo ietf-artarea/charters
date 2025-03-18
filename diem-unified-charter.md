@@ -26,7 +26,7 @@ Which attributes an emblem contains, and how a digital emblem is secured and pre
 
 # Initial Scope
 
-The DIEM WG will initially develop a discovery mechanism using the DNS, and digital emblems that explicitly identify their bearer.
+The DIEM WG will develop digital emblems that explicitly identify their bearer. It will also develop an initial DNS-based discovery mechanism.
 In particular, the design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
 The discovery mechanism, presentation, and validation procedures must be designed so that clients using them remain undetectable as such.
 
