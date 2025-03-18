@@ -34,7 +34,7 @@ The working group will not produce any standards track generic serialization for
 The working group will not produce any standards track extensions to the DNS. 
 The working group will not develop novel security mechanisms, cryptographic primitives, or digital signature schemes. 
 
-The DIEM WG will ensure maximum reuse of work for use cases that cannot be addressed by the initial scope and ensure that existing standards are leveraged appropriately.
+The working group will ensure maximum reuse of work for use cases that cannot be addressed by the initial scope and ensure that existing standards are leveraged appropriately.
 
 # Deliverables
 
