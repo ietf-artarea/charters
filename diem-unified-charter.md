@@ -17,7 +17,6 @@ The DIEM WG will define an architecture and discovery mechanism enabling digital
 "To bear an emblem" means to present or display and be identified by a digital emblem.
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This is often a separate entity from the creator or original designer of the emblem.
-Identification can be explicit, i.e., the emblem contains an identifier of the bearer, or implicit, for example, an emblem presented over a channel such as TLS can implicitly identify the sender as bearer.
 
 A "discovery mechanism" enables clients to discover emblem bearers such that the emblem bearer can present their emblem to the client.
 For example, a registry providing a list of domain names that provide TLS-endpoints can be a discovery mechanism.
