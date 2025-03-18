@@ -42,7 +42,6 @@ The DIEM WG will work on the following deliverables for the defined scope strict
 
 1. Use cases and requirements that can be addressed by the initial scope (Informational):
    Initially, the working group will develop and maintain an informational use cases and requirements document, but is not required to request publication of this document. 
-   This document must describe at least one digital emblem suitable for indicating protection under IHL and at least one digital emblem suitable for indicating the presence of a hazard or a certification of the absence of a hazard.
    As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match initial scope's discovery mechanism, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems.
    The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC.
 
