@@ -6,14 +6,14 @@ be identified by other laws or ISO standards that parties need to be able to app
 to digital infrastructure.
 
 There is a need to present emblems through digital communication channels.
-
+Emblems presented in such ways are called digital emblems.
 Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
 
 The DIEM WG will define an architecture and discovery mechanism enabling digital emblems to be presented and validated across applications and platforms in a cohesive way.
 
-# Architectural Consideration
+# Terminology
 
-"To bear an emblem" means to present or display an identifying mark. 
+"To bear an emblem" means to present or display and be identified by a digital emblem.
 The entity that bears the emblem is respectively the bearer or emblem holder. 
 This is often a separate entity from the creator or original designer of the emblem.
 
