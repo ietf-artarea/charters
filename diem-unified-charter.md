@@ -37,18 +37,16 @@ The working group will not develop novel security mechanisms, cryptographic prim
 
 The DIEM WG will work on the following deliverables for the defined scope strictly in this order:
 
-1. Use cases and requirements for the initial target scenarios (Informational):
+1. Use cases and requirements that can be addressed by the initial scope (Informational):
    Initially, the working group will develop and maintain an informational use cases and requirements document, but is not required to request publication of this document. 
-   This document must describe at least one digital emblem suitable for indicating protection under IHL and at least one digital emblem suitable for indicating the presence of a hazard or a certification of the absence of a hazard.
-   This work must not assume any specific serialization format or discovery mechanisms.
-   As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match discovery protocols used in the initial scope, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems. 
-   The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC for DNS records, or TLS for well known HTTPS URLs. 
+   As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match initial scope's discovery mechanism, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems.
+   The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC.
 
 2. An architecture containing a taxonomy, data model, and overall information flows (Informational):
    The working group will develop a high level architecture and data model that includes a taxonomy defining the terminology to be used in future working group documents but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
 3. A protocol specification describing the discovery of digital emblems (Proposed Standard or Experimental):
-   After the architecture and data model are finished, the working group will specify a validation and discovery mechanism addressing one or two of the initial use cases.
+   After the architecture and data model are finished, the working group will specify a validation and discovery mechanism implementing the initial scope.
    This specification may describe a mandatory to implement securing mechanism. 
    If a securing mechanism is described, at least one mandatory to implement cryptographic algorithm which is already supported by the securing mechanism must be described as well. 
