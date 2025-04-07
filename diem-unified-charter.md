@@ -42,7 +42,7 @@ The DIEM WG will work on the following deliverables for the defined scope strict
    As part of this document, the working group will research, analyze and evaluate application layer serialization formats focusing on data structures that match initial scope's discovery mechanism, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems.
    The group is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC.
 
-2. An architecture containing a taxonomy, data model, and overall information flows (Informational):
+2. An extensible architecture containing a taxonomy, data model, and overall information flows (Informational):
    The working group will develop a high level architecture and data model that includes a taxonomy defining the terminology to be used in future working group documents but start this work only after the use case and requirements document has reached group consensus. 
    The architecture must not assume any specific serialization formats or securing and discovery mechanisms.
 
