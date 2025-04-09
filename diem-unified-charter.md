@@ -37,5 +37,5 @@ The DIEM WG will work on the following deliverables for the defined scope strict
 
 1. Use cases and requirements that can be addressed by the initial scope (Informational)
 2. An extensible architecture containing a taxonomy, data model, and overall information flows (Informational)
-3. A protocol specification describing the validation and discovery of digital emblems (Proposed Standard or Experimental)
+3. A protocol specification describing the validation and discovery of digital emblems using DNS (Proposed Standard or Experimental)
    
