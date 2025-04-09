@@ -21,7 +21,7 @@ The DIEM WG will define an architecture and discovery mechanism enabling digital
 
 The DIEM WG will develop an initial DNS-based discovery mechanism and associated validation procedure for digital emblems that explicitly identify their bearer.
 The design of discovery mechanisms using proximity-based protocols such as QRCodes, NFC, or Bluetooth is out-of-scope.
-The discovery mechanism, presentation, and validation procedures must allow for validators to be undetectable as validators.
+The discovery mechanism and validation procedures must allow for validators to be undetectable as validators.
 The DIEM WG is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC.
 
 The DIEM WG will not produce any standards track generic serialization formats. 
