@@ -2,8 +2,7 @@
 
 Emblems such as the Red Cross, Red Crescent, Red Crystal, and Blue Shield can be symbols of
 protection governed by International Humanitarian Law (IHL).  Emblems can also
-be identified by other laws or ISO standards that parties need to be able to apply
-to digital infrastructure.
+be identified by other laws, agreements, or standards.
 
 There is a need to present emblems through digital communication channels.
 Emblems presented in such ways are called digital emblems.
