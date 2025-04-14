@@ -24,7 +24,7 @@ The design of discovery mechanisms using proximity-based protocols such as QRCod
 The discovery mechanism and validation procedures must allow for validators to be undetectable as validators.
 The DIEM WG is not required to describe object level securing mechanisms, in the case that existing protocol level securing mechanisms are sufficient, for example DNSSEC.
 
-The DIEM WG will neither produce any standards track generic serialization formats, nor produce any standards track extensions to the DNS, nor develop novel security mechanisms, cryptographic primitives, or digital signature schemes.
+The DIEM WG will not produce any standards track generic serialization formats, standards track extensions to the DNS, cryptographic primitives, or digital signature schemes.
 
 The DIEM WG will research, analyze and evaluate application layer serialization formats focusing on data structures that match the initial scope's discovery mechanism, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems.
 
