@@ -28,7 +28,7 @@ The DIEM WG will seek advice from DNS experts in DNSOP and DNSSD WGs on proposed
 
 The DIEM WG will not produce any standards track generic serialization formats, standards track extensions to the DNS, cryptographic primitives, or digital signature schemes.
 
-The DIEM WG will investigate, analyze and evaluate application layer serialization formats focusing on data structures that match the initial scope's discovery mechanism, such as DNS records or structured fields in DNS, as well as the respective securing mechanisms for digital emblems.
+The DIEM WG will investigate, analyze, and evaluate application-layer serialization formats focusing on data structures that match the initial scope's discovery mechanism (e.g., DNS records or structured fields in DNS) as well as the respective securing mechanisms for digital emblems.
 
 # Deliverables
 
