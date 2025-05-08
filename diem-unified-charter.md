@@ -6,12 +6,12 @@ There is a need to present emblems through digital communication channels.
 Emblems presented in such ways are called digital emblems.
 Digital emblems extend the range of identifying marks from the physical (visual and tactile) to the digital realm.
 
-"To bear an emblem" means to present or display and be identified by a digital emblem.
+"To bear an emblem" means to present and be identified by a digital emblem.
 The entity that bears the emblem is the bearer or emblem holder.
 This is often a separate entity from the creator or original designer of the emblem.
 "To validate an emblem" means to confirm the authenticity or legitimacy of a particular symbol or design, often by checking its details against a known standard or reference point. 
 Validation may include ensuring that the bearer has not forged, stolen, or tampered with an emblem.
-Emblems may be observed by validators without the knowledge of the bearer displaying the emblem, or may be presented to a specific validator upon request.
+Emblems may be observed by validators without the knowledge of the bearer presenting the emblem, or may be presented to a specific validator upon request.
 Cryptographic verification may or may not be used based on the in-place security mechanisms of the communication channel bearing the emblem.
 Which attributes an emblem contains, and how a digital emblem is secured and presented impacts how a validator interprets and trusts the assertions made within the emblem.
 
