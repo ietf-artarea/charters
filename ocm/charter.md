@@ -17,6 +17,12 @@ protocols such as WebDAV or JMAP can take over. This layered design
 makes OCM flexible and agnostic to the underlying data exchange
 mechanisms, enabling seamless integration between diverse systems.
 
+The OCM specification has evolved in bursts so far, and has now grown
+to a level of maturity where it will be useful to converge on a set of
+features in a stable specification that all the vendors can implement
+and feel confident that stability and security of the specification can
+last for a number of years to come.
+
 ## Motivations
 
 Many Internet protocols require metadata exchange such as
