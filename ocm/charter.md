@@ -27,11 +27,11 @@ last for a number of years to come.
 
 Many Internet protocols require metadata exchange such as
 authentication tokens, API endpoints, or identifiers before any useful
-interaction can occur. OCM facilitates such metadata exchange between
-servers, making it a valuable tool for federating independent systems.
-In addition, it enables users on federated systems to connect via an
-invite mechanism that can leverage trusted out-of-band networks
-to initiate server-to-server contact.
+interaction can occur. OCM tries to address this need in the context of
+resource sharing and facilitates the metadata exchange needed for such
+interactions. In addition, it enables users on federated systems to
+connect via an invite mechanism that can leverage trusted out-of-band
+networks to initiate server-to-server contact.
 
 ## High-Level Outcome
 
