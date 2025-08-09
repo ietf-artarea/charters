@@ -7,8 +7,10 @@ implemented by several platforms, including CERNBox, Nextcloud,
 OpenCloud, ownCloud, and Seafile.
 
 A core use case of OCM is when a user (e.g., Alice on System A) wishes
-to share a resource (e.g., a file) with another user (e.g., Bob on System B)
-without transferring the resource itself or requiring cross-authentication.
+to share a resource (e.g., a file) with another user (e.g., Bob on
+System B) without transferring the resource itself or requiring Bob to
+log in to System A.
+
 While this scenario is illustrative, OCM is designed to support a broader
 range of interactions, including but not limited to file transfers.
 
