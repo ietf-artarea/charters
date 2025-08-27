@@ -4,7 +4,7 @@ The Extensible Provisioning Protocol (EPP, STD 69) is the standard application-l
 
 The Registration Data Access Protocol (RDAP, STD 95) is the standard for retrieving registration data and metadata from both Domain Name Registries (DNRs) and Regional Internet Registries (RIRs). 
 
-The working group may publish proposed standard extensions to EPP and RDAP.
+The working group may publish proposed standard and experimental extensions to EPP and RDAP.
 The working group may publish informational and best current practice documents for EPP and RDAP.
 The working group may revise the registration procedures for the EPP and RDAP registries.
 The working group will discuss new registrations with the designated experts for the EPP and RDAP registries.
@@ -16,11 +16,8 @@ In addition to publishing extensions, the working group may publish proposed sta
 
 For example:
 
-* Uniform representation formats for publishing local policy or configuration options regarding EPP and RDAP use.
-
 * Data formats for files exchanged between registration entities that need insertion in or extraction from EPP or RDAP.
 
-* The specification of application transport protocols for EPP and RDAP based on existing RFCs.
-
+* The specification of application transport protocols for EPP based on existing RFCs.
 
 The working group does not have fixed deliverables, as it is a maintenance group that publishes extensions as they are needed by the RDAP and EPP communities.
