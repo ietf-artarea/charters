@@ -4,7 +4,8 @@ Open Cloud Mesh (OCM) is a server-to-server protocol designed to enable
 federation between Enterprise File Sync and Share (EFSS) platforms.
 Initially conceived of in 2015 and deployed since 2016, OCM has been
 implemented by several platforms, including CERNBox, Nextcloud,
-OpenCloud, ownCloud, and Seafile.
+OpenCloud, ownCloud, and Seafile. This working group seeks to formally
+specify OCM.
 
 A core use case of OCM is when a user (e.g., Alice on System A) wishes
 to share a resource (e.g., a file) with another user (e.g., Bob on
@@ -35,13 +36,6 @@ resource sharing and facilitates the metadata exchange needed for such
 interactions. In addition, it enables users on federated systems to
 connect via an invite mechanism that can leverage trusted out-of-band
 networks to initiate server-to-server contact.
-
-## High-Level Outcome
-
-The working group will deliver a protocol specification, based on the
-existing OCM specification, which enables users on federated servers
-to interact, and enables the servers to exchange the necessary metadata
-required for resource federation.
 
 # Scope
 
@@ -78,12 +72,3 @@ notifications, and sharing while other elements such as discovery,
 capabilities, and restrictions could be documented in a core
 specification. Alternatively, all functionality may be maintained in a
 single document.
-
-Given that working implementations already exist based on the proposed
-draft, we believe that the WG can progress relatively quickly, delivering the
-target I-Ds within months. However, the WG welcomes and seeks thorough input
-from the IETF community to ensure that the final specification is secure,
-robust, and maintainable. These goals are of primary importance even
-in the case where backwards compatibility with the existing implementations
-may be in part compromised. There is no intention to rush publication
-of an incomplete or underdeveloped standard.
