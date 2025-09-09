@@ -12,7 +12,8 @@ System B) without transferring the resource itself or requiring Bob to
 log in to System A.
 
 While this scenario is illustrative, OCM is designed to support a broader
-range of interactions, including but not limited to file transfers.
+range of interactions, including for instance file transfers and sharing
+of applications.
 
 OCM defines the exchange up to the point where other established
 protocols such as WebDAV or JMAP can take over. This layered design
