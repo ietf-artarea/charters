@@ -39,7 +39,7 @@ networks to initiate server-to-server contact.
 
 # Scope
 
-The basis for the working group's efforts is the current [Open Cloud
+The basis for OCM is currently described in [Open Cloud
 Mesh Internet-Draft](https://datatracker.ietf.org/doc/draft-lopresti-open-cloud-mesh/).
 
 This draft outlines the general flows and structure of the protocol,
