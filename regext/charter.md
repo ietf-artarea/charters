@@ -10,7 +10,7 @@ The working group may revise the registration procedures for the EPP and RDAP re
 The working group will discuss new registrations with the designated experts for the EPP and RDAP registries.
 When the working group is closed, the mailing list will remain open and available for the use of the expert review process.
 
-A primary goal of the working group is to ensure the profiles and extensions are easily discoverable and understood, and to avoid duplicate effort that could harm interoperability.
+A primary goal of the working group is to ensure the extensions are easily discoverable and understood, and to avoid duplicate effort that could harm interoperability.
 
 In addition to publishing extensions, the working group may publish proposed standards addressing interoperability issues that are adjacent to EPP and RDAP.
 
