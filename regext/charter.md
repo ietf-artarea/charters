@@ -16,7 +16,7 @@ In addition to publishing extensions, the working group may publish proposed sta
 
 For example:
 
-* Data formats for exchanges between registration entities that need insertion in or extraction from EPP or RDAP.
+* Data formats for exchanges between registration entities that need insertion or extraction using EPP, or extraction using RDAP.
 
 *  The specification of application transport protocols for EPP based on existing RFCs, with proper review and advice from the relevant transport protocol working group.
 
