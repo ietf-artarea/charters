@@ -18,6 +18,6 @@ For example:
 
 * Data formats for exchanges between registration entities that need insertion or extraction using EPP, or extraction using RDAP.
 
-*  The specification of application transport protocols for EPP based on existing RFCs, with proper review and advice from the relevant transport protocol working group.
+*  The specification of application transport protocols for EPP based on existing RFCs, with proper review and advice from the relevant protocol working groups.
 
 The working group does not have fixed deliverables, as it is a maintenance group that publishes extensions as they are needed by the RDAP and EPP communities.
