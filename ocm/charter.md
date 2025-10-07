@@ -33,7 +33,7 @@ pre-existing trust mechanisms.
 
 # Scope
 
-The OCM WG will produce a standards-track specification or family of
+The OCM WG will produce Standards Track specification(s)
 specifications, for OCM's share/invite functionality. With these 
 specifications the WG will:
 
