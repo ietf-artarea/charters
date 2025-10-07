@@ -10,7 +10,7 @@ specify OCM.
 A core use case of OCM is when a user with file-sharing functionality
 within one administrative domain wishes to provide file access to a 
 user in another administrative domain without transferring the resource itself.
-When many administrative domains are involved (e.g. many universities
+When many administrative domains are involved (e.g., many universities
 and research centers with cross-collaboration) it becomes hard to allow
 users to log into each others' administrative domains. Instead, a 
 federated system has been built that allows servers in one domain to
