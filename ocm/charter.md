@@ -60,7 +60,7 @@ rather, it leverages existing protocols for identity and authentication
 where appropriate.  OCM also does not propose to create interoperable 
 protocol flows to establish trust relationships where there are none 
 before; instead the WG will explain how trust relationships set up 
-out-of-band (i.e. configuration of server settings or allow lists) 
+out-of-band (e.g., configuration of server settings or allow lists) 
 are required for secure sharing.
 
 
