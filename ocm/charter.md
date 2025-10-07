@@ -13,7 +13,7 @@ user in another administrative domain without transferring the resource itself.
 When many administrative domains are involved (e.g., many universities
 and research centers with cross-collaboration) it becomes hard to allow
 users to log into each others' administrative domains. Instead, a 
-federated system has been built that allows servers in one domain to
+federated system has been built to allow servers in one domain to
 connect to trusted servers in other domains and make shared data 
 available to their own logged-in users.
 
