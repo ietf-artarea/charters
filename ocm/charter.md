@@ -3,49 +3,51 @@
 Open Cloud Mesh (OCM) is a server-to-server protocol designed to enable
 federation between Enterprise File Sync and Share (EFSS) platforms.
 Initially conceived of in 2015 and deployed since 2016, OCM has been
-implemented by several platforms, including CERNBox, Nextcloud,
-OpenCloud, ownCloud, and Seafile. This working group seeks to formally
+implemented by several platforms. This working group seeks to formally
 specify OCM.
 
-A core use case of OCM is when a user (e.g., Alice on System A) wishes
-to share a resource (e.g., a file) with another user (e.g., Bob on
-System B) without transferring the resource itself or requiring Bob to
-log in to System A.
-
-While this scenario is illustrative, OCM is designed to support a broader
-range of interactions, including for instance file transfers and sharing
-of applications.
+A core use case of OCM is when a user with file-sharing functionality
+within one administrative domain wishes to provide file access to a 
+user in another administrative domain without transferring the resource itself.
+When many administrative domains are involved (e.g., many universities
+and research centers with cross-collaboration) it becomes hard to allow
+users to log into each others' administrative domains. Instead, a 
+federated system has been built to allow servers in one domain to
+connect to trusted servers in other domains and make shared data 
+available to their own logged-in users.
 
 OCM defines the exchange up to the point where other established
 protocols such as WebDAV or JMAP can take over. This layered design
-makes OCM flexible and agnostic to the underlying data exchange
+makes OCM agnostic to the underlying data exchange
 mechanisms, enabling seamless integration between diverse systems.
 
-The OCM specification has evolved in bursts so far, and has now grown
+The OCM specification has now grown
 to a level of maturity where it will be useful to converge on a set of
-features in a stable specification that all the vendors can implement
-and feel confident that stability and security of the specification can
-last for a number of years to come.
+features in a stable specification for vendors to build to or update to.
 
-## Motivations
-
-Many Internet protocols require metadata exchange such as
-authentication tokens, API endpoints, or identifiers before any useful
-interaction can occur. OCM tries to address this need in the context of
-resource sharing and facilitates the metadata exchange needed for such
-interactions. In addition, it enables users on federated systems to
-connect via an invite mechanism that can leverage trusted out-of-band
-networks to initiate server-to-server contact.
+The architectural context for OCM is therefore federated servers already
+providing an interoperable interface within their individual contexts, 
+but requiring share mechanisms that cross administative boundaries, using
+pre-existing trust mechanisms.
 
 # Scope
 
-The basis for OCM is currently described in [Open Cloud
-Mesh Internet-Draft](https://datatracker.ietf.org/doc/draft-lopresti-open-cloud-mesh/).
+The OCM WG will produce Standards Track specification(s)
+for OCM's share/invite functionality. With these 
+specifications the WG will:
 
-This draft outlines the general flows and structure of the protocol,
-but further work is required particularly around security
-considerations that will benefit from the IETF community’s broader
-review and input.
+* Cover general flows and structure of the protocol,
+* Define extensible data models for objects conveyed in the protocol,
+* Explain trust decisions and how trust can be established before
+resources can be securely shared,
+* Describe server-to-server invitations,
+* Describe requirements around sending and receiving shares
+* Describe requirements for managing active shares
+* Consider whether operations, management or scaling of OCM servers
+requires any requirements or recommenations,
+* Consider extensibility in the protocol, data model and discovery
+mechanisms
+* Develop security considerations
 
 The working group will **not** define new data transfer protocols or
 mechanisms unrelated to server-to-server federation and metadata
@@ -54,21 +56,19 @@ for actual data transfer.
 
 OCM does not aim to address identity federation (e.g., OIDC or SAML);
 rather, it leverages existing protocols for identity and authentication
-where appropriate.
+where appropriate.  OCM also does not propose to create interoperable 
+protocol flows to establish trust relationships where there are none 
+before; instead the WG will explain how trust relationships set up 
+out-of-band (e.g., configuration of server settings or allow lists) 
+are required for secure sharing.
 
-Importantly, OCM is **not** a competitor to user-oriented messaging or
-social protocols like ActivityPub or Matrix federation, but addresses
+OCM is not a user-oriented messaging or social media
+protocol like ActivityPub or Matrix federation, but addresses
 different use cases focused on content federation and metadata
 exchange.
 
 # Deliverables
 
-The working group will deliver one or more Internet-Drafts describing
-the OCM protocol, suitable for publication as standards-track RFCs.
-
-Depending on how the protocol evolves, it may be appropriate to
-separate its functionality into multiple drafts e.g., invitations,
-notifications, and sharing while other elements such as discovery,
-capabilities, and restrictions could be documented in a core
-specification. Alternatively, all functionality may be maintained in a
-single document.
+* One specification or family of specifications, that describe
+OCM Invite/Share functionality and associated considerations such as
+operational and security considerations.
