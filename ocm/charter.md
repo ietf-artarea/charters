@@ -19,7 +19,7 @@ available to their own logged-in users.
 
 OCM defines the exchange up to the point where other established
 protocols such as WebDAV or JMAP can take over. This layered design
-makes OCM flexible and agnostic to the underlying data exchange
+makes OCM agnostic to the underlying data exchange
 mechanisms, enabling seamless integration between diverse systems.
 
 The OCM specification has now grown
