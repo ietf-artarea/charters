@@ -73,4 +73,4 @@ exchange.
 
 * One specification or family of specifications, that describe
 OCM Invite/Share functionality and associated considerations such as
-security considerations.
+operational and security considerations.
