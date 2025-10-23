@@ -23,7 +23,7 @@ mechanisms, enabling seamless integration between diverse systems.
 
 The OCM specification has now grown
 to a level of maturity where it will be useful to converge on a set of
-features in a stable specification for vendors to build to or update to.
+features in a stable specification for vendors to target.
 
 The architectural context for OCM is therefore federated servers already
 providing an interoperable interface within their individual contexts, 
