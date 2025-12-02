@@ -13,7 +13,7 @@ The Working Group will:
 1. **Update RFC 4130 (AS2) to reflect recent practices and recommendations:**
 
 - Align with current Internet and security practices (e.g., TLS 1.3, recommended cipher suites, certificate validation, MIME updates).
-- Replace outdated dependencies with references to current standards and best practices.
+- Replace outdated dependencies with references to latest standards and best practices.
 - Improve clarity in message structure, signatures, receipts, and error handling.
 
 2. **Clarify Backward Compatibility Expectations:**
