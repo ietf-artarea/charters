@@ -4,7 +4,7 @@ The EDIINT Working Group is chartered to update the mechanisms defined in RFC 41
 
 ## Background
 
-The original EDIINT Working Group developed protocols enabling secure and reliable business data interchange over the Internet, including AS1, AS2, and AS3. These technologies have been widely adopted in global commerce. Despite the availability of alternative technologies such as RESTful interfaces over HTTPS, AS2 remains foundational in numerous production environments and industry frameworks. Many sectors continue to depend on AS2 due to its proven reliability, strong authentication and non-repudiation capabilities, and established certification and compliance ecosystems. This update focuses on modernizing AS2 to maintain its operational relevance and interoperability in today's Internet environment.
+The EDIINT Working Group developed protocols enabling secure and reliable business data interchange over the Internet, including AS1 (RFC3335), AS2 (RFC4130), and AS3 (RFC4823). These applicability statements have been widely adopted. Despite the availability of alternative technologies such as RESTful interfaces over HTTPS, AS2 remains foundational in numerous production environments and industry frameworks. Many sectors continue to depend on AS2 due to its proven reliability, strong authentication and non-repudiation capabilities, and established certification and compliance ecosystems. This update focuses on refreshing AS2 to maintain its operational relevance and interoperability in today's Internet environment.
 
 ## Goals and Scope
 
