@@ -10,7 +10,7 @@ The EDIINT Working Group developed protocols enabling secure and reliable busine
 
 The Working Group will:
 
-1. **Modernize RFC 4130 (AS2):**
+1. **Update RFC 4130 (AS2) to reflect recent practices and recommendations:**
 
 - Align with current Internet and security practices (e.g., TLS 1.3, modern cipher suites, certificate validation, MIME updates).
 - Replace outdated dependencies with references to current standards and best practices.
