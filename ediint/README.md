@@ -42,4 +42,4 @@ The Working Group will:
 
 - **WG Adoption of RFC 4130bis draft as Proposed Standard**: Initial working group draft (Q2 2026)
 - **WG Last Call**: Consensus on updates and backward compatibility sections (Q4 2026)
-- **IETF Last Call / Publication Request**: Submission to IESG for publication (Q2 2027)
+- **Publication Request**: Submission to IESG for publication (Q2 2027)
