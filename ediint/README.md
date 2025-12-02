@@ -1,6 +1,6 @@
 # EDIINT Working Group Charter
 
-The EDIINT Working Group is chartered to update and modernize the mechanisms defined in RFC 4130 (AS2 – Applicability Statement 2) to reflect advances in Internet transport security, messaging reliability, and interoperability practices, while maintaining backward compatibility with existing implementations where practical.
+The EDIINT Working Group is chartered to update the mechanisms defined in RFC 4130 (MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)) to reflect advances in Internet transport security, messaging reliability, and interoperability practices, while maintaining backward compatibility with existing implementations where practical.
 
 ## Background
 
