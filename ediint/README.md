@@ -20,7 +20,7 @@ The Working Group will:
 
 - Define guidance to ensure existing AS2 deployments continue operating without disruption, while recognizing that some legacy mechanisms—whether cryptographic, transport, configuration, or feature-related—may not interoperate with updated implementations.
 - Clarify that backward compatibility focuses on preserving operational continuity and migration pathways, not guaranteeing interoperability across all legacy features or security levels.
-- Where older algorithms or mechanisms are retained solely for compatibility, they will be designated as "MAY implement", while secure and modern alternatives will be specified as "MUST implement".
+- Where older algorithms or mechanisms are retained solely for compatibility, they will be designated appropriately relative to their modern alternatives.
 
 3. **Clarify and Extend Functionality:**
 
