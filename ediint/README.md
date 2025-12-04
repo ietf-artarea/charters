@@ -36,7 +36,7 @@ The Working Group will:
 ## Out of Scope
 
 - Development of new EDI or transport protocols (e.g., REST/HTTPS-based EDI messaging).
-- Changes that break compatibility with existing AS2 deployments beyond what is required for security or standards alignment.
+- Changes that break compatibility with existing AS2 deployments beyond what may be required for security or standards alignment.
 
 ## Milestones
 
