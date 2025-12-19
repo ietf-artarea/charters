@@ -32,7 +32,7 @@ The Working Group will:
 4. **Deliverables**
 
 - A Standards Track document updating RFC 4130 ("RFC 4130bis").
-- Optional informational documents describing interoperability and transition strategies, covering best practices and implementation profiles.
+- Optional Informational documents describing interoperability and transition strategies, covering best practices and implementation profiles.
 
 ## Out of Scope
 
