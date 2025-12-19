@@ -42,5 +42,5 @@ The Working Group will:
 ## Milestones
 
 - **WG Adoption of RFC 4130bis draft as Proposed Standard**: Initial working group draft (Q2 2026)
-- **WG Last Call**: Consensus on updates and backward compatibility sections (Q4 2026)
+- **WG Last Call** of the  document RFC4130bis document (Q4 2026)
 - **Publication Request**: Submission to IESG for publication (Q2 2027)
