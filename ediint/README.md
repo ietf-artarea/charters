@@ -25,7 +25,8 @@ The Working Group will:
 3. **Clarify and Extend Functionality:**
 
 - Incorporate operational experience and lessons from two decades of AS2 deployment.
-- Address implementation ambiguities, interoperability challenges, and deployment best practices.
+- Address implementation ambiguities and interoperability challenges
+- Document deployment best practices.
 - Consider optional, informational extensions that improve operational usability or integration without redefining AS2 as a new protocol.
 
 4. **Deliverables**
