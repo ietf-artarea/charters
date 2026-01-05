@@ -39,6 +39,7 @@ The Working Group will:
 - Development of new EDI or transport protocols (e.g., REST/HTTPS-based EDI messaging).
 - Changes that break compatibility with existing AS2 deployments beyond what may be required for security or standards alignment.
 - AS1 and AS3 will not be addressed as part of this work.
+- Updating or obsoleting RFC 6017 and RFC 6362 will not be addressed as part of this work.
 ## Milestones
 
 - **WG Adoption of RFC 4130bis draft as Proposed Standard**: Initial working group draft (Q2 2026)
