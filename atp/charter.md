@@ -6,7 +6,7 @@ The protocol enables synchronization of public data across organizational bounda
 The network will give small independent participants global visibility and distribution without prior coordination, and will not depend on the existence of any single privileged entity.
 
 The work will be based on draft-holmgren-at-repository and the pre-standardization implementation and deployment experience of multiple parties in the ATP ecosystem. 
-All existing work must undergo a consensus process, and changes may be necessary, but gratuitous changes will be avoided when possible.
+All existing work must undergo a consensus process. Proposed changes to the existing approach must be weighed against their impact on deployed implementations.
 
 The working group will focus on a general purpose data repository structure for public user data records, and mechanisms for synchronizing repositories across the network. 
 Repositories are cryptographically verifiable and publicly published.
