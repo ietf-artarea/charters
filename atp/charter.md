@@ -30,7 +30,7 @@ Deliverables for the working group:
 Key goals for ATP are:
 
 - The synchronization protocol should include notification of data deletion
-- The synchronization protocol should allow for alternative network transports
+- The synchronization protocol should allow for alternative transport layers
 - Scale to global network applications
 - Support for redistribution of authenticated data via multiple layers of intermediary parties
 - Account migration between network locations (eg, hosting providers) does not break references or graph relationships
@@ -41,5 +41,5 @@ The following are out of scope for the working group:
 - Any application-specific data schemas
 - Any social application semantics
 
-The ATP working group will consult the Crypto Forum Research Group (CFRG) and Security Area groups concerning the use and selection of any cryptographic systems. 
+The ATP working group will consult the Crypto Forum Research Group (CFRG) and Security Area groups concerning the use and selection of any cryptographic systems. Likewise, the WG will leverage (and liaise as appropriate) with HAPPY WG for transport selection matters.
 Privacy and Centralization per RFC 6973 and RFC 9518 will inform design decisions.
