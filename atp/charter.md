@@ -1,7 +1,9 @@
 Authenticated Transfer Protocol (ATP) Working Group
 ===================================================
 
-The Authenticated Transfer Protocol (ATP) working group will develop a set of standards-track specifications that enable creation of an interoperable global network for publication of self-certifying data. 
+The Authenticated Transfer Protocol (ATP) working group will develop a set of Standards Track specifications that enable creation of decentralized global networks for publication of self-certifying data.
+
+See RFC 9518 for additional context on why decentralization matters.
 Data is published by accounts in data repositories. An account represents a user or actor's identity, can migrate between hosting locations over time, and is identified by a persistent globally-resolvable account identifier.
 The network comprises independent hosts and other participants that synchronize public data across organizational boundaries, while preserving authenticity of content and attribution to the accounts that published the content.
 The network will give small independent participants global visibility and distribution without prior coordination, and will not depend on the existence of any single privileged entity.
