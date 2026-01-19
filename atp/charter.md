@@ -27,6 +27,7 @@ Deliverables for the working group:
 - Standards track document(s) describing a URI scheme ('at:') for persistent references between data records
 - Document(s) describing interface requirements and selection criteria for account identifier resolution systems, and defining a public registry and update process for recommending specific account identifier resolution systems
 - Document(s) describing operational considerations for deployment and interoperability testing.
+
 Key goals for ATP are:
 
 - The synchronization protocol should include notification of data deletion
