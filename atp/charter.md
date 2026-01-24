@@ -32,7 +32,7 @@ Deliverables for the working group:
 Key goals for ATP are:
 
 - The synchronization protocol should include notification of data deletion
-- The synchronization protocol should allow for alternative transport layers
+- The synchronization protocol should allow for alternative transport layers, and not be overly fit to the current WebSocket transport layer.
 - The synchronization protocol should require that the server is authenticated and that the traffic is confidential
 - Scale to global network applications
 - Support for redistribution of authenticated data via multiple layers of intermediary parties
