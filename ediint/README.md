@@ -25,11 +25,11 @@ The Working Group will:
 3. **Clarify and Extend Functionality:**
 
 - Incorporate operational experience and lessons from two decades of AS2 deployment.
-- Address implementation ambiguities and interoperability challenges
+- Address implementation ambiguities and interoperability challenges.
 - Document deployment best practices.
 - Consider optional, informational extensions that improve operational usability or integration without redefining AS2 as a new protocol.
 
-4. **Deliverables**
+## Deliverables
 
 - A Standards Track document updating RFC 4130 ("RFC 4130bis").
 - Optional Informational documents describing interoperability and transition strategies, covering best practices and implementation profiles.
