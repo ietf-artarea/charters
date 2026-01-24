@@ -14,8 +14,9 @@ Proposed changes to the existing approach must be weighed against their impact o
 The working group will focus on a general purpose data repository structure for public user data records, and mechanisms for synchronizing repositories across the network. 
 Repositories are cryptographically verifiable and publicly published.
 
-Cryptographic verification of repository signatures requires a system for resolving account identifiers to public signing keys. 
-Account identifiers are also used to resolve the current hosting location. Account identifiers should be globally resolvable and persist across hosting migrations. 
+Cryptographic verification ensures existential unforgeability (EUF-CMA) of repository data, preventing injection of falsified content, signature transplantation, and unauthorized modifications by requiring resolution of account identifiers to current signing keys. 
+Account identifiers are also used to resolve the current hosting location and must support bidirectional authorization: identifiers must resolve uniquely to specifications of allowed signing keys, and those keys must provide cryptographic commitment to the account identifier to prevent adversarial impersonation. 
+Account identifiers should be globally resolvable and persist across hosting migrations. 
 The working group will specify interface requirements and selection criteria for account identifier systems. 
 To ensure broad interoperability, the working group will create a list indicating which identifier systems are recommended as a baseline, and a process for updating that list over time. 
 Backwards compatibility will be maintained for the two account identifier systems supported in the currently deployed network (PLC and did:web).
