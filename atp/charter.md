@@ -17,7 +17,7 @@ Repositories are cryptographically verifiable and publicly published.
 Cryptographic verification ensures existential unforgeability (EUF-CMA) of repository data, preventing injection of falsified content, signature transplantation, and unauthorized modifications by requiring resolution of account identifiers to current signing keys. 
 Account identifiers are also used to resolve the current hosting location and must support bidirectional authorization: identifiers must resolve uniquely to specifications of allowed signing keys, and those keys must provide cryptographic commitment to the account identifier to prevent adversarial impersonation. 
 Account identifiers should be globally resolvable and persist across hosting migrations. 
-The working group will specify interface requirements and selection criteria for account identifier systems. 
+As existing and future account identifier systems have different properties, the WG will define interface requirements for using account identifier systems to authenticate data repositories, and will provide selection criteria that allow implementers to evaluate their suitability for specific use cases.
 To ensure broad interoperability, the working group will create a list indicating which identifier systems are recommended as a baseline, and a process for updating that list over time. 
 Backwards compatibility will be maintained for the two account identifier systems supported in the currently deployed network (PLC and did:web).
 
