@@ -6,7 +6,7 @@ The Authenticated Transfer Protocol (ATP) working group will develop a set of St
 See RFC 9518 for additional context on why decentralization matters.
 Data is published by accounts in data repositories. An account represents the identity of a user, can migrate between hosting locations over time, and is identified by a persistent globally-resolvable account identifier.
 The network comprises independent hosts and other participants that synchronize public data across organizational boundaries, while preserving authenticity of content and attribution to the accounts that published the content.
-The network will give participants global visibility and distribution without prior coordination, and will not depend on the existence of any single privileged entity.
+The network will give small independent participants global visibility and distribution without prior coordination, and will not depend on the existence of any single privileged entity.
 
 The work will be based on draft-holmgren-at-repository and the pre-standardization implementation and deployment experience of multiple parties in the ATP ecosystem. 
 Proposed changes to the existing approach must be weighed against their impact on deployed implementations.
