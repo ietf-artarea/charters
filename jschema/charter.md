@@ -3,7 +3,8 @@
 JSON Schema is a JSON language for describing the data structures of other JSON documents.
 JSON Schema is referenced by more than 10 IETF RFCs, hundreds of IETF Internet-Drafts,
 and in the specifications of many other organizations such as 3GPP, W3C, HR Open Standards,
-OpenBanking UK, OpenAPI, ETSI, C2PA and more. JSON Schema is widely used in many products.
+OpenBanking UK, OpenAPI, ETSI, C2PA and more. JSON Schema is widely used in many commercial
+and open source offerings.
 
 However, there is no stable IETF specification for JSON Schema. JSON Schema is described
 in at least 5 IETF Internet-Drafts but has never been published as an RFC. The goal of
