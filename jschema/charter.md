@@ -10,14 +10,17 @@ However, there is no stable IETF specification for JSON Schema. JSON Schema is d
 in at least 5 IETF Internet-Drafts but has never been published as an RFC. The goal of
 this working group is to produce a stable, reference specification of JSON Schema as an
 IETF Proposed Standard. This stable specification will contain only features and
-mechanisms in JSON Schema that are in known use. To achieve this goal, this working
-group also has the following scope:
+mechanisms in JSON Schema that are in known use, and the working group may remove features
+and mechanisms it is (a) confident are not in use and (b) are likely not to be used in
+the future. To achieve this goal, this working group also has the following scope:
 
 * Documenting, mitigating, or fixing any security concerns with JSON Schema.
 * Registering values into existing IANA registries, such as a media-type for JSON Schema documents.
 * Creating new IANA registries specific to JSON Schema.
 
-This working group will not produce any other JSON language for describing JSON data structures.
+This working group will not produce any other language for describing JSON data structures.
+The working group may recharter to broaden the group's scope of work after completing the
+group's initial milestone.
 
 Milestones:
 * Request publication of JSON Schema as a Proposed Standard within one year of the formation of this working group.
