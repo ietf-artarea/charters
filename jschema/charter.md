@@ -19,7 +19,7 @@ the future. To achieve this goal, this working group also has the following scop
 * Creating new IANA registries specific to JSON Schema.
 
 This working group will not produce any other language for describing JSON data structures.
-The working group may recharter to broaden the group's scope of work after completing the
+The working group may recharter to broaden the group's scope of work only after completing the
 group's initial milestone.
 
 Milestones:
