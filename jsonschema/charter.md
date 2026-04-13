@@ -1,22 +1,22 @@
 # JSON Schema Working Group Charter (Proposed)
 
 JSON Schema is a JSON language for describing the data structures of other JSON documents.
-JSON Schema is referenced by more than 10 IETF RFCs, hundreds of IETF Internet-Drafts,
-and in the specifications of many other organizations such as 3GPP, W3C, HR Open Standards,
-OpenBanking UK, OpenAPI, ETSI, C2PA and more. JSON Schema is widely used in many commercial
-and open source offerings.
+JSON Schema is widely refenced with the IETF  and by other organizations such as 3GPP, W3C, HR Open Standards,
+OpenBanking UK, OpenAPI, ETSI, C2PA and more. JSON Schema is widely used in many open source
+and commercial offerings.
 
-However, there is no stable IETF specification for JSON Schema. JSON Schema is described
-in at least 5 IETF Internet-Drafts but has never been published as an RFC. The goal of
-this working group is to produce a stable, reference specification of JSON Schema as an
-IETF Proposed Standard. This stable specification will contain only features and
+However, JSON Schema is described in at least 5 IETF Internet-Drafts but has never been published as an RFC. The goal of
+this working group is to produce a stable, reference specification of JSON Schema as a
+Proposed Standard. This specification will contain only features and
 mechanisms in JSON Schema that are in known use, and the working group may remove features
 and mechanisms it is (a) confident are not in use and (b) are likely not to be used in
-the future. To achieve this goal, this working group also has the following scope:
+the future. Also, the working group will ensure that changes are carefully assessed to avoid breaking known deployments.
+To achieve this goal, the document produced by this working group may have the following scope:
 
-* Documenting, mitigating, or fixing any security concerns with JSON Schema.
-* Registering values into existing IANA registries, such as a media-type for JSON Schema documents.
-* Creating new IANA registries specific to JSON Schema.
+* Document, mitigate, or fix any security concerns with JSON Schema.
+* Register values into existing IANA registries, such as a media-type for JSON Schema documents.
+* Create new IANA registries specific to JSON Schema.
+* Identify operational (including interoperability) considerations that need to be satisfied by the JSON Schema.
 
 This working group will not produce any other language for describing JSON data structures.
 The working group may recharter to broaden the group's scope of work only after completing the
