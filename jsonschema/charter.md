@@ -22,6 +22,5 @@ This working group will not produce any other language for describing JSON data 
 The working group may recharter to broaden the group's scope of work only after completing the
 group's initial milestone.
 
-Milestones:
-* Request publication of JSON Schema as a Proposed Standard within one year of the formation of this working group.
-
+The JSONSCHEMA working group will liaise with other organizations, including but not limited to,
+ETSI, 3GPP, and OpenAPI regarding known uses of JSON Schema mechanisms.
