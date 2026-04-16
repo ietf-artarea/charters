@@ -1,7 +1,7 @@
 # JSON Schema Working Group Charter (Proposed)
 
 JSON Schema is a JSON language for describing the data structures of other JSON documents.
-JSON Schema is widely refenced with the IETF  and by other organizations such as 3GPP, W3C, HR Open Standards,
+JSON Schema is widely referenced with the IETF and by other organizations such as 3GPP, W3C, HR Open Standards,
 OpenBanking UK, OpenAPI, ETSI, C2PA and more. JSON Schema is widely used in many open source
 and commercial offerings.
 
@@ -16,7 +16,11 @@ To achieve this goal, the document produced by this working group may have the f
 * Document, mitigate, or fix any security concerns with JSON Schema.
 * Register values into existing IANA registries, such as a media-type for JSON Schema documents.
 * Create new IANA registries specific to JSON Schema.
-* Identify operational (including interoperability) considerations that need to be satisfied by the JSON Schema.
+* Document or mitigate operational and interoperability concerns with JSON Schema.
+
+draft-dusseault-json-schema-00 is a recent attempt to collect all known uses of JSON Schema
+into a specification. The working group may use this document as a starting point for the
+development of a Proposed Standard.
 
 This working group will not produce any other language for describing JSON data structures.
 The working group may recharter to broaden the group's scope of work only after completing the
