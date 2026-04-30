@@ -1,4 +1,4 @@
-# JSON Schema Working Group Charter (Proposed)
+# JSON Schema Working Group Charter
 
 JSON Schema is a JSON language for describing the data structures of other JSON documents.
 JSON Schema is widely referenced within the IETF and by other organizations such as 3GPP, W3C, HR Open Standards,
