@@ -2,7 +2,7 @@
 
 JSON Schema is a JSON language for describing the data structures of other JSON documents.
 JSON Schema is widely referenced within the IETF and by other organizations such as 3GPP, W3C, HR Open Standards,
-OpenBanking UK, OpenAPI, ETSI, C2PA, and more. JSON Schema is widely used in many open source projects
+OpenBanking UK, OpenAPI Initiative, ETSI, C2PA, and more. JSON Schema is widely used in many open source projects
 and commercial offerings.
 
 However, JSON Schema is described in at least 5 IETF Internet-Drafts but has never been published as an RFC. The goal of
@@ -27,4 +27,4 @@ The working group may recharter to broaden the group's scope of work only after 
 working group's initial milestone.
 
 The JSONSCHEMA working group will liaise with other organizations, including but not limited to,
-ETSI, 3GPP, and OpenAPI regarding known uses of JSON Schema mechanisms.
+ETSI, 3GPP, and OpenAPI Initiative regarding known uses of JSON Schema mechanisms.
