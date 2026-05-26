@@ -1,39 +1,46 @@
-To help facilitate the introduction of proposed new work, SAWDISPATCH WG
+To help facilitate the introduction of proposed new work, DISPATCH WG
 provides a standing venue to provide feedback on, and define next steps
 for topics in the ART, SEC and non-transport aspects of the WIT areas.
 This facilitation is enabled through a discussion mailing list to
 germinate new ideas before they might move to a dedicated mailing list.
 Additionally, the WG enables a new work proponent to present their topic
-at a WG meeting. SAWDISPATCH is inspired by the guidance and methodology
+at a WG meeting. DISPATCH is inspired by the guidance and methodology
 of [RFC7957](https://datatracker.ietf.org/doc/html/rfc7957) and the
-experience of the DISPATCH and SECDISPATCH WGs.
+experience of the previously chartered DISPATCH and SECDISPATCH WGs.
 
-With respect to the WIT area, SAWDISPATCH is not to be used for new work
+With respect to the WIT area, DISPATCH is not to be used for new work
 relating to a transport protocol that is maintained by an existing working
-group (such as NFS, QUIC, RTP, SCTP, TCP, etc). New work relating to the
+group. New work relating to the
 way the IETF transport protocols interact with network elements should be
-directed to TSVWG if a relevant working group cannot be found.
+directed to TSVWG if a relevant working group cannot be found. A list of
+those relevant working groups is to be maintained on the DISPATCH working
+groups IETF Wiki page by the DISPATCH chairs in consultation with the WIT ADs.
 
-Participants requesting to present a topic at a SAWDISPATCH working group
+Participants requesting to present a topic at a DISPATCH working group
 meeting must have:
 
-1. a clear problem statement, motivation and deliverables
+1. A clear problem statement, motivation and deliverables.
 2. Identified commonalities and overlap amongst published or ongoing protocol work.
-3. people with interest and expertise to work on this problem
-4. people interested in an interoperable solution and capable of implementing and deploying it
-5. documentation in the form of one or more Internet-Drafts 
-6. a slide presentation to be given at the SAWDISPATCH meeting
+3. People with interest and expertise to work on this problem.
+4. People interested in an interoperable solution and capable of implementing and deploying it.
+5. Documentation in the form of one or more Internet-Drafts. 
+6. A slide presentation to be given at the DISPATCH meeting.
 
-The SAWDISPATCH chairs may place other requirements on presentations and
+The DISPATCH chairs may place other requirements on presentations and
 may reject presentation requests if not appropriate for the scope of the
-SAWDISPATCH working group.
+DISPATCH working group.
 
 Precedence will be given to documents which have evidence of interest in the
 form of active drafts and list discussion. An Internet-Draft shall not be
 dispatched multiple times unless a substantially revised proposal is put
 forth, including compelling new reasons for accepting the work. 
 
-The feedback given by the SAWDISPATCH working group may include, but is
+The DISPATCH chairs may institute a workflow for the working group's mailing list
+for the purposes of processing work without a meeting using inputs from
+participants similar to the above and with processing steps equivalent to
+the steps used for processing work in a meeting.
+
+The feedback given by the DISPATCH working group may include, but is
 not limited to, the following:
 
 1. Directing new work to an existing WG.
@@ -47,18 +54,17 @@ not limited to, the following:
    * there are not enough individuals willing to complete the work in the IETF
    * there is no interoperability concern, or no people interested in an interoperable solution.
 
-
-Guidance given by the SAWDISPATCH working group is not binding. Feedback
-from SAWDISPATCH is not guaranteed if the SAWDISPATCH chairs cannot
+Guidance given by the DISPATCH working group is not binding. Feedback
+from DISPATCH is not guaranteed if the DISPATCH chairs cannot
 determine consensus on the presented new work.
 
-The SAWDISPATCH working group may, with the agreement of the relevant
+The DISPATCH working group may, with the agreement of the relevant
 ART, SEC, or WIT ADs, process and have as work items simple administrative
 documents for media-type specifications and other IANA actions. Otherwise,
-the SAWDISPATCH working group does not process documents.
+the DISPATCH working group does not process documents.
 
 Other areas may have their own process for considering new work. Support
-for other IETF areas is out of scope for SAWDISPATCH.
+for other IETF areas is out of scope for DISPATCH.
 
 The chairs are empowered to create operational procedures within the bounds
 of established IETF processes to meet the goals of this working group,
