@@ -9,36 +9,30 @@ of [RFC7957](https://datatracker.ietf.org/doc/html/rfc7957) and the
 experience of the previously chartered DISPATCH and SECDISPATCH WGs.
 
 With respect to the WIT area, DISPATCH is not to be used for new work
-relating to a transport protocol that is maintained by an existing working
-group. New work relating to the
-way the IETF transport protocols interact with network elements should be
-directed to TSVWG if a relevant working group cannot be found. A list of
-those relevant working groups is to be maintained on the DISPATCH working
+relating to transport protocols within the scope of an existing working
+group. A list of those working groups is to be maintained on the DISPATCH working
 groups IETF Wiki page by the DISPATCH chairs in consultation with the WIT ADs.
 
-Participants requesting to present a topic at a DISPATCH working group
-meeting must have:
+Other IETF areas and IETF-maintained technologies may have their own process
+for considering new work and are out-of-scope for DISPATCH. The chairs will maintain
+a list on the DISPATCH wiki of the other working groups with a dispatch function
+covering other IETF areas and IETF-maintained technologies.
 
-1. A clear problem statement, motivation and deliverables.
-2. Identified commonalities and overlap amongst published or ongoing protocol work.
-3. People with interest and expertise to work on this problem.
-4. People interested in an interoperable solution and capable of implementing and deploying it.
-5. Documentation in the form of one or more Internet-Drafts. 
-6. A slide presentation to be given at the DISPATCH meeting.
-
-The DISPATCH chairs may place other requirements on presentations and
-may reject presentation requests if not appropriate for the scope of the
-DISPATCH working group.
+The DISPATCH chairs will place requirements on presentations and
+may reject presentation requests if not appropriate for the
+DISPATCH working group. The chairs will maintain a list of presentation
+requirements on the DISPATCH wiki.
 
 Precedence will be given to documents which have evidence of interest in the
 form of active drafts and list discussion. An Internet-Draft shall not be
 dispatched multiple times unless a substantially revised proposal is put
 forth, including compelling new reasons for accepting the work. 
 
-The DISPATCH chairs may institute a workflow for the working group's mailing list
-for the purposes of processing work without a meeting using inputs from
-participants similar to the above and with processing steps equivalent to
-the steps used for processing work in a meeting.
+While DISPATCH has traditionally processed new work proposals during
+sessions at IETF meetings, the working group may process new work
+at interim meetings, and on the group's mailing list.
+The chairs are empowered to create operational procedures to process new
+work via all these forums.
 
 The feedback given by the DISPATCH working group may include, but is
 not limited to, the following:
@@ -62,11 +56,3 @@ The DISPATCH working group may, with the agreement of the relevant
 ART, SEC, or WIT ADs, process and have as work items simple administrative
 documents for media-type specifications and other IANA actions. Otherwise,
 the DISPATCH working group does not process documents.
-
-Other areas may have their own process for considering new work. Support
-for other IETF areas is out of scope for DISPATCH.
-
-The chairs are empowered to create operational procedures within the bounds
-of established IETF processes to meet the goals of this working group,
-including but not limited to, mandating presentation templates, instituting
-mailing list workflows, etc…
