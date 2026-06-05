@@ -14,7 +14,7 @@ group. A list of those working groups is to be maintained on the DISPATCH workin
 group's IETF Wiki page by the DISPATCH chairs in consultation with the WIT ADs.
 
 Other IETF areas and IETF-maintained technologies may have their own process
-for considering new work and are out-of-scope for DISPATCH. The chairs will maintain
+for considering new work and are out-of-scope for DISPATCH. The WG chairs will maintain
 a list on the DISPATCH wiki of the other working groups with a dispatch function
 covering other IETF areas and IETF-maintained technologies.
 
