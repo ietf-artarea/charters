@@ -40,7 +40,7 @@ not limited to, the following:
 1. Directing new work to an existing WG.
 2. Guidance to propose a BoF for the new work.
 3. Guidance to create a charter for a new working group.
-4. Recommend the new work is of sufficient scope to be AD-sponsored (this does not mean an AD is required to sponsor the work).
+4. Recommending that the new work is of sufficient scope to be AD-sponsored (this does not mean an AD is required to sponsor the work).
 5. Create a mailing list for further discussion of the proposal. 
 6. Suggesting the work be deferred or rejected. Some possible reasons for this include:
    * the required expertise for the work does not reside in the IETF
