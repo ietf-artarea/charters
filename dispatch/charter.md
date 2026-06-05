@@ -23,7 +23,7 @@ may reject presentation requests if not appropriate for the
 DISPATCH working group. The chairs will maintain a list of presentation
 requirements on the DISPATCH WG Wiki.
 
-Precedence will be given to documents which have evidence of interest in the
+Precedence to present will be given to proposals which have evidence of interest in the
 form of active drafts and list discussion. An Internet-Draft shall not be
 dispatched multiple times unless a substantially revised proposal is put
 forth, including compelling new reasons for accepting the work. 
