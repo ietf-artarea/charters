@@ -24,7 +24,7 @@ DISPATCH working group. The chairs will maintain a list of presentation
 requirements on the DISPATCH WG Wiki.
 
 Precedence to present will be given to proposals which have evidence of interest in the
-form of active drafts and list discussion. An Internet-Draft shall not be
+form of active Internet-Draftts and list discussion. An Internet-Draft shall not be
 dispatched multiple times unless a substantially revised proposal is put
 forth, including compelling new reasons for accepting the work. 
 
