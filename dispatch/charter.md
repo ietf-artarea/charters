@@ -21,7 +21,7 @@ covering other IETF areas and IETF-maintained technologies.
 The DISPATCH chairs will place requirements on presentations and
 may reject presentation requests if not appropriate for the
 DISPATCH working group. The chairs will maintain a list of presentation
-requirements on the DISPATCH wiki.
+requirements on the DISPATCH WG Wiki.
 
 Precedence will be given to documents which have evidence of interest in the
 form of active drafts and list discussion. An Internet-Draft shall not be
