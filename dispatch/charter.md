@@ -11,7 +11,7 @@ experience of the previously chartered DISPATCH and SECDISPATCH WGs.
 With respect to the WIT area, DISPATCH is not to be used for new work
 relating to transport protocols within the scope of an existing working
 group. A list of those working groups is to be maintained on the DISPATCH working
-groups IETF Wiki page by the DISPATCH chairs in consultation with the WIT ADs.
+group's IETF Wiki page by the DISPATCH chairs in consultation with the WIT ADs.
 
 Other IETF areas and IETF-maintained technologies may have their own process
 for considering new work and are out-of-scope for DISPATCH. The chairs will maintain
