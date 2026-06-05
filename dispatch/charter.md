@@ -18,6 +18,12 @@ for considering new work and are out-of-scope for DISPATCH. The WG chairs will m
 a list on the DISPATCH WG Wiki of the other working groups with a dispatch function
 covering other IETF areas and IETF-maintained technologies.
 
+While DISPATCH has traditionally processed new work proposals during
+sessions at IETF meetings, the working group may process new work
+at interim meetings, and on the group's mailing list.
+The chairs are empowered to create operational procedures to process new
+work via all these forums.
+
 The DISPATCH chairs will place requirements on presentations and
 may reject presentation requests if not appropriate for the
 DISPATCH working group. The chairs will maintain a list of presentation
@@ -27,12 +33,6 @@ Precedence to present will be given to proposals which have evidence of interest
 form of active Internet-Drafts and list discussion. An Internet-Draft shall not be
 dispatched multiple times unless a substantially revised proposal is put
 forth, including compelling new reasons for accepting the work. 
-
-While DISPATCH has traditionally processed new work proposals during
-sessions at IETF meetings, the working group may process new work
-at interim meetings, and on the group's mailing list.
-The chairs are empowered to create operational procedures to process new
-work via all these forums.
 
 The feedback given by the DISPATCH working group may include, but is
 not limited to, the following:
