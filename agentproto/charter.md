@@ -1,82 +1,176 @@
 # Agent Communication Protocols (agentproto) Proposed Charter
 
-The Agent Communication Protocols (agentproto) Working Group will work on defining protocol building blocks for enabling interoperability for AI Agent applications across the Internet. An AI agent is an autonomous, adaptive intelligent software system that uses AI models to complete a specific task. AI Agents often interact with users via chat or voice, performing tasks based on the flow of the conversation. To complete tasks on behalf of a human user or another AI agent, they can independently make decisions, execute actions, and interact with other AI agents and tools.
+AI agents are driving a change in how software is deployed and how protocols are used.
+Components increasingly select at run time which other components they will communicate with
+in order to carry out a task. A task begun by one component may be decomposed and handed
+onward across several others, operated by different parties, reached over different
+protocols, and chosen after the task is already underway. The resulting structure is a
+dynamically reconfiguring collection of services communicating point to point across a
+multiprotocol mesh, spanning trust boundaries that were not known when the task began.
 
-With the expansion of communication over the Internet between AI Agents and external resources that can be tools or other AI Agents, reliable communications across platforms and vendors becomes increasingly important. The role of the agentproto working group is to facilitate such interoperability so that tools and agents can be provided by multiple vendors.
+This pattern is not new in kind. It is the pattern of a microservice deployment, with the
+composition decided at run time rather than at deployment time. What is new is the
+dynamicity: the set of participants, and the boundaries crossed, are determined during the
+interaction rather than in advance. Agents have made this pattern common enough, and
+automatic enough, to expose a gap that closed and statically composed systems could paper
+over with local convention.
 
-# Key Considerations
+The gap is that these components have no interoperable way to establish that they are
+working on the same thing. Within a single operator, this is solved by convention: a trace
+identifier or a stack of them is carried in the RPC protocol, usually for observability, and
+it works because every participant is under common control. Across operators, protocols, and
+trust boundaries, that convention does not survive. An identifier that any party can mint,
+copy, or forge conveys nothing, and an identifier that conveys authority is a bearer token
+with all of the attendant hazards.
 
-There are several considerations that are unique to AI Agent applications that need to be addressed while working on developing the building blocks:
+The agentproto working group will define a minimal set of protocol primitives that closes
+this gap: an identifier for a unit of related activity, a means of proving that identifier
+was legitimately bound to that activity, rules for propagating it across components and
+trust boundaries, and bindings that carry it over the protocols already in use. It will not
+attempt to specify the interactions themselves.
 
-- AI Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
+# Terminology
 
-- AI Agents possess unique and specialized functional capabilities which can be enhanced by collaboratively working with other agents or tools. This brings new considerations for how these specialized capabilities can be leveraged to select AI agents or tools for collaboration, initiate communication and maintain interactions, including across network boundaries.
+This charter uses "agent" for a networked software component that selects at run time which
+other components it will communicate with in order to carry out a task on behalf of a
+principal. This definition is deliberately independent of how that selection is made. It
+does not require the use of machine learning, and the working group will not attempt to
+define "intelligence", "autonomy", or "agentic". The protocols developed here are motivated
+by systems built around language models but must not depend on the presence of one.
 
-- Interactions of AI Agents with users, other AI Agents, and tools can be long-lived, utilize significant amounts of context across various modes (text, audio, video), and require very low latency (including fast barge/interruption times). This introduces new considerations around reliability, transport session management, and data transport.
+This charter uses "interaction" for the unit of related activity that the working group's
+primitives identify, and "interaction reference" for the identifier itself. **Both terms are
+provisional placeholders.** Selecting the terminology this work will use is an explicit
+deliverable, described below, and the working group is expected to replace these terms —
+including in a revision of this charter — before the protocol documents are finished.
 
-- To protect data exchanged between AI Agents (and between AI Agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data or conversational context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI Agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
+# Scope
 
-The scope of the working group includes agent-to-agent and agent-to-tools communication protocols. The working group will document common use-cases to derive requirements for these protocols. Human-agent communication protocols — specifically the protocol-level mechanisms for establishing sessions, negotiating modalities, and exchanging multimodal data between a human user and an AI Agent — are also in scope.
+In scope:
+
+- The format and relational semantics of the interaction reference.
+- The cryptographic envelope that binds a reference to an interaction.
+- Rules for propagating references between agents, including across trust boundaries.
+- Bindings carrying references over protocols already used for agent communication.
+- Use cases, gap analysis, and requirements supporting the above.
+
+The working group will apply existing IETF identity, authentication, and authorization
+mechanisms rather than developing new ones. Where those mechanisms are found insufficient,
+the required extensions will be pursued in the working groups that own them — OAuth for
+authorization, WIMSE for workload identity — and not here.
 
 # Deliverables
 
-The working group will produce the following standards track and informational documents. The work on these deliverables is expected to proceed in parallel.
+## Interaction Reference and Binding (Standards Track)
 
-## AI Agent Session Protocol (Standards Track)
+The core deliverable. It will specify:
 
-A standards-track protocol for creation and maintenance of communication sessions between AI agents, or between AI agents and tools. These sessions allow for the bidirectional exchange of data, including model context, tool call results, and chat messages.
+* **Reference format and relational semantics.** An identifier for a unit of related
+  activity spanning multiple agents and trust domains, and the relationships between
+  references, such that an agent decomposing a task can mint a reference provably related
+  to its parent for those entitled to observe the relationship, and opaque to those not.
 
-The session protocol will:
+* **Binding envelope.** A means of demonstrating that a reference was bound to an
+  interaction by a party entitled to bind it. Possession of a reference, with or without
+  its envelope, must not by itself confer authority to act. The reference states that an
+  operation belongs to an interaction; it does not authorize that operation. Conflating
+  these two is a known failure mode and is out of scope by construction.
 
-* Provide timed (short or long-lived) session management, enabling the establishment, update, context handling, and termination of the services of interacting agents and tools.
-* Facilitate highly scalable and reliable session management, capable of surviving network and server failures while supporting graceful recovery.
-* Support concurrent exchange of real-time data (such as voice and video), semi-real-time data (such as chat), and non-real-time data (such as tool call inputs and outputs).
-* Supports point-to-point and point-to-multipoint communication topologies.
+* **Propagation rules.** Normative behaviour for an agent receiving a reference, making an
+  onward call, encountering a failure, and completing or abandoning work — the small set of
+  operations that a participating implementation must get right.
 
-This protocol is expected to be a foundational building block on top of which additional protocols can be built. It is anticipated that the AI Agent session protocol will utilize modern IETF application transfer protocols, such as QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases. The protocol must also be usable by other application layer protocols with the appropriate layering and extension points enabling its adoption by any application. Examples of protocols that can utilize this include the existing de facto standard agent communication protocols such as the MCP and A2A protocols being worked on by the Linux Foundation.
+* **Linkability control.** Mechanisms allowing endpoints to determine whether their
+  activity is correlatable end to end by parties along the path, and to sever that
+  correlation where required. The trade-off between reduced linkability and increased local
+  state is inherent, and the specification is expected to expose it rather than resolve it
+  on the implementer's behalf.
 
-## AI Agent Protocol Framework (Standards Track)
+* **Revocation.** What revoking a reference means, what it applies to, and how revocation
+  propagates through a mesh in which not every participant is reachable or still running.
 
-A standards-track framework that identifies the key building blocks and defines the protocol suite for interoperable agent-to-agent and agent-to-tool communications. The framework provides an architectural overview and highlights areas for subsequent protocol specification work.
+* **Anchoring of cryptographic context.** How a reference serves as an anchor from which
+  two non-adjacent agents can establish protection over a subpath of the interaction,
+  including where the agent that brokered their communication is not entitled to read it.
+  This deliverable specifies the anchor, not the key agreement; the latter is expected to
+  use existing IETF mechanisms.
 
-This is an evolving work item that can proceed in parallel with the development of specific protocol deliverables associated with the identified architectural blocks. It will iteratively integrate both existing and currently missing protocol building blocks in successive steps, until all core modules are fully incorporated.
+The working group may divide this material across multiple documents.
 
-The framework will:
+## Carrier Bindings (Standards Track)
 
-* Enable AI Agents to select and collaborate with other AI Agents on the Internet or intranet, deployed in various interconnected domains and ecosystems, to execute simple or complex tasks.
-* Allow multi-modal collaboration using varied data formats such as text, images, video, audio, and structured data with exchange of multi-modal contexts.
-* Describe the functional blocks, their relationships, and the mechanisms for structured, semi-structured, and multi-modal information exchange to support collaborative tasks across domains.
-* Describe agent-specific integration for agent authentication and authorization about how existing and emerging  mechanisms are composed and applied in AI agent scenarios, including the confirmation and evidence requirements for AI agent operations.
-* Enable an AI Agent to create an independent identity, obtain and exchange access tokens with fine-grained, behavior-driven scopes bound to the specific operations that it is permitted to perform on behalf of the user. Agent authorization needs to account for dynamic behavioral boundaries, including conditional and context-dependent privileges that may vary across interactions and provide a way of requesting confirmation for operations that are about to be performed by AI agents. Any extensions to OAuth protocol mechanisms required to support agent authorization are expected to be developed within the OAuth working group. Any extensions required for independent AI agent identity are expected to be developed within the wimse working group.
-* Identify the protocol suite covering session management, transport, security, and identity building blocks.
-* The framework may be delivered as multiple standards-track documents, as the working group determines based on the structure and maturity of the building blocks.
+Specifications carrying the interaction reference and its envelope over the protocols agent
+deployments already use. The working group will begin with a binding to HTTP, following the
+guidance in RFC 9205, because it is the substrate on which the widely deployed agent
+communication protocols are built and is therefore the binding most likely to see use.
+Bindings to QUIC, WebTransport, and MOQ will follow, addressing the streaming and multimodal
+cases that HTTP request/response serves poorly.
+
+These bindings are deliberately designed to be adoptable by existing protocols without
+restructuring them. An existing protocol that already carries a correlation identifier
+should be able to adopt these semantics in the field it already has.
+
+## Terminology and Architecture (Informational)
+
+A single Informational document establishing the terminology used by the working group's
+protocol documents and the minimal architectural model those protocols assume. It will
+supersede the provisional terminology in this charter, including the working group's chosen
+name for the interaction concept.
+
+**This is intended to be a short document.** It exists to serve the protocol deliverables. It
+does not describe an ecosystem, does not enumerate components the working group is not
+specifying, and neither authorizes nor precludes work in any other working group.
 
 ## Use Cases, Gap Analysis, and Requirements (Informational)
 
-Foundational work will be documented through a set of informational Internet-Drafts covering:
-
-* **Use cases** focused on Agent-to-agent and Agent-to-tool communications, used to verify the suitability of existing protocols and the protocols being developed.
-* **Gap analysis and requirements** based on examination of existing de facto standard protocols implemented in open-source projects, from which necessary protocol requirements are derived.
-
-# Coordination
-
-This working group is expected to closely coordinate with other related IETF working groups:
-
-* **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE — on identity, authorization, and security considerations.
-* **Transport:** WebTransport, MoQ, QUIC, TSVWG — on data transport and session management.
-* **Discovery and Operations:** INT area, OPS area — on agent discovery and operational considerations.
-
-If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them. The group is also expected to maintain close communication with open-source projects running under the Linux Foundation.
-
+Documentation of the agent-to-agent and agent-to-tool interactions motivating this work,
+and an analysis of which requirements are already met by deployed protocols and which are
+not. The gap analysis will examine the widely deployed agent communication protocols
+developed in open source, and will treat the absence of a demonstrated gap as a finding.
 
 # Out of Scope
 
-The following topics are explicitly out of scope for this working group:
+The following are explicitly out of scope:
 
-- Implementation details of AI Agents, including definition of AI models, backend AI infrastructure network and protocols, agent reasoning algorithms, or tool-specific business logic.
+- Session lifecycle management — establishment, termination, pause and resume, turn taking,
+  interruption, and reconnection. Existing transport and application protocols already
+  address these, and the working group will not develop a session protocol unless the gap
+  analysis identifies a requirement that existing protocols demonstrably cannot meet. Should
+  it do so, that work requires a recharter.
 
-- Standardization of agent behavior, decision-making, or planning semantics.
+- Authorization semantics, delegation, and the attenuation of delegated authority. These
+  belong to OAuth and WIMSE. The working group will consume their output.
 
-- AI agent behavioral security (e.g., preventing the AI model itself from hallucinating, though mitigating the impact of hallucinations via protocol-level user confirmation is in scope).
+- Definition of agent behaviour, reasoning, planning, or decision making, and definition of
+  the terms "AI", "intelligence", or "autonomy".
 
-- The design of human to agent user interfaces, client application UX, or the rendering of agent outputs on end-user devices
+- Agent implementation internals, model architectures, and backend infrastructure.
+
+- Replacement of, or competition with, existing agent communication protocols. The working
+  group's output is intended to be adopted by them.
+
+- Determination of what other working groups should or should not work on.
+
+- Human-to-agent user interface design and the rendering of agent output.
+
+# Coordination
+
+The working group will coordinate with OAuth and WIMSE on identity and authorization; with
+QUIC, WebTransport, MOQ, and TSVWG on the carrier bindings; and with the open source
+projects developing the deployed agent communication protocols, whose adoption of this work
+is the measure of its success.
+
+Where changes to protocols owned by other working groups are required, those changes will be
+raised with, and decided by, those working groups.
+
+# Milestones
+
+- Use cases and gap analysis adopted as working group documents.
+- Terminology and architecture document adopted, establishing the working group's chosen
+  terminology and superseding the provisional terms in this charter.
+- Interaction reference and binding specification adopted.
+- HTTP carrier binding adopted.
+- Gap analysis submitted to the IESG for publication. Any session lifecycle work identified
+  as necessary by the gap analysis is proposed at this point by recharter.
+- Interaction reference and binding specification submitted to the IESG for publication.
+- QUIC, WebTransport, and MOQ carrier bindings submitted to the IESG for publication.
