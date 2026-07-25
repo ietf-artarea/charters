@@ -2,29 +2,29 @@
 
 The Agent Communication Protocols (agentproto) Working Group will work on defining protocol building blocks for enabling interoperability for agent applications across the Internet. For the purposes of this charter, an agent is a networked software component that selects at run time which other components it will communicate with in order to carry out a task on behalf of a principal. The definition does not depend on AI models; this work is motivated by agents built on them, but must not require one.
 
-AI agents are driving a change in how software is deployed. A task begun by one agent is decomposed and handed onward across others, operated by different parties, reached over different protocols, and chosen after the task is underway: a microservice deployment whose composition is decided at run time. Those participants have no interoperable way to establish that they are working on the same thing. Within one operator this is solved by convention, and the convention does not survive crossing trust boundaries.
+AI agents are driving a change in how software is deployed. A task begun by one agent is decomposed and handed onward across others, operated by different parties, reached over different protocols, and chosen after the task is underway: a microservice deployment whose composition is decided at run time. Those participants have no interoperable way to establish that they are working on the same thing. Within one operator this is solved by convention, and the convention does not survive crossing trust boundaries. The working group's output is intended to be adopted by the agent communication protocols already in use, such as MCP and A2A, not to replace them.
 
 # Key Considerations
 
-There are several considerations that are unique to AI Agent applications that need to be addressed while working on developing the building blocks:
+There are several considerations that need to be addressed while developing the building blocks:
 
-- AI Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
+- Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
-- AI Agents possess unique and specialized functional capabilities which can be enhanced by collaboratively working with other agents or tools. This brings new considerations for how these specialized capabilities can be leveraged to select AI agents or tools for collaboration, initiate communication and maintain interactions, including across network boundaries.
+- Agents possess specialized functional capabilities which can be enhanced by collaboratively working with other agents or tools. This brings new considerations for how these capabilities can be leveraged to select agents or tools for collaboration, initiate communication, and maintain interactions, including across network boundaries.
 
-- Interactions of AI Agents with users, other AI Agents, and tools can be long-lived, utilize significant amounts of context across various modes (text, audio, video), and require very low latency (including fast barge/interruption times). Whether existing transport and application protocols (such as MCP or A2A) already meet these requirements is a question for the gap analysis.
+- Interactions among agents, users, and tools can be long-lived, utilize significant amounts of context across various modes (text, audio, video), and require very low latency (including fast barge/interruption times). Whether existing transport and application protocols (such as MCP or A2A) already meet these requirements is a question for the gap analysis.
 
-- To protect data exchanged between AI Agents (and between AI Agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data or conversational context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI Agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
+- To protect data exchanged between agents (and between agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data or conversational context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, and authenticity of the exchanged data, and delegate authorization across agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
 
-The scope of the working group includes agent-to-agent and agent-to-tools communication protocols. The working group will document common use-cases to derive requirements for these protocols. Human-agent communication protocols — specifically the protocol-level mechanisms for negotiating modalities and exchanging multimodal data between a human user and an AI Agent — are also in scope.
+The scope of the working group includes agent-to-agent and agent-to-tool communication protocols. The working group will document common use cases to derive requirements for these protocols. Human-agent communication protocols — specifically the protocol-level mechanisms for negotiating modalities and exchanging multimodal data between a human user and an agent — are also in scope.
 
 # Deliverables
 
-The working group will produce the following standards track and informational documents. The work on these deliverables is expected to proceed in parallel.
+The working group will produce the following standards track and informational documents. The terminology and architecture document is expected to be developed first, to establish the vocabulary the other deliverables use; the remaining documents may then proceed in parallel.
 
 ## Interaction Reference and Binding (Standards Track)
 
-An identifier for a unit of related activity spanning multiple agents and trust domains, with the means of proving it was legitimately bound to that activity. “Interaction” and “interaction reference” are provisional terms, expected to be replaced by the terminology deliverable below.
+A reference to a unit of related activity spanning multiple agents and trust domains, with the means of proving it was legitimately bound to that activity. “Interaction” and “interaction reference” are provisional, to be replaced by the terminology deliverable below; the charter avoids naming the concept “identifier,” “context,” or “session,” each of which collides with an established meaning in an adjacent space (IAM, ML, and transport, respectively).
 
 The specification will define:
 
@@ -54,6 +54,7 @@ Foundational work will be documented through a set of informational Internet-Dra
 
 * **Use cases** focused on Agent-to-agent and Agent-to-tool communications, used to verify the suitability of existing protocols and the protocols being developed.
 * **Gap analysis and requirements** based on examination of existing de facto standard protocols implemented in open-source projects, from which necessary protocol requirements are derived. The absence of a demonstrated gap is itself a finding.
+* **Auditability and attribution** of agent actions across an interaction: whether identifying the party responsible for an action needs a durable notion of ownership, distinct from the runtime credentials that OAuth and WIMSE provide. This analysis will coordinate closely with work on the auditability of agent actions, which builds on the same reference-propagation substrate.
 
 # Coordination
 
@@ -70,7 +71,7 @@ If the working group needs any changes to or extensions of protocols specified b
 
 The following topics are explicitly out of scope for this working group:
 
-- Implementation details of AI Agents, including definition of AI models, backend AI infrastructure network and protocols, agent reasoning algorithms, or tool-specific business logic.
+- Implementation details of agents, including definition of AI models, backend AI infrastructure network and protocols, agent reasoning algorithms, or tool-specific business logic.
 
 - Standardization of agent behavior, decision-making, or planning semantics, and definition of the terms “AI”, “intelligence”, or “autonomy”.
 
