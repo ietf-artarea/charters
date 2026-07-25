@@ -40,7 +40,7 @@ Specifications carrying the reference and its envelope over the protocols agent 
 
 ## Terminology and Architecture (Informational)
 
-A short informational document establishing the terminology used by the protocol deliverables and the minimal architectural model they assume. It neither authorizes nor precludes work in any other working group.
+A short informational document establishing the terminology used by the protocol deliverables and the minimal architectural model they assume.
 
 This document will:
 
