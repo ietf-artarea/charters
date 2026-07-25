@@ -29,7 +29,7 @@ An identifier for a unit of related activity spanning multiple agents and trust 
 The specification will define:
 
 * The reference format, and relationships between references, so an agent decomposing a task can mint one provably related to its parent for those entitled to see the relationship, and opaque to others.
-* A binding envelope demonstrating that a reference was bound by a party entitled to bind it. Possession must not by itself confer authority: a reference says an operation belongs to an interaction, not that it is authorized.
+* A binding envelope demonstrating that a reference was bound by a party entitled to bind it. Possession might not by itself confer authority: a reference says an operation belongs to an interaction, not that it is authorized.
 * Propagation rules: what an agent does with a reference on receipt, on an onward call, on failure, and on completion.
 * Linkability control, letting endpoints determine whether their activity is correlatable end to end; and revocation, including what it applies to and how it propagates where not every participant is reachable.
 * How a reference anchors cryptographic context, so two non-adjacent agents can protect a subpath from the agent that brokered it. This specifies the anchor, not the key agreement.
