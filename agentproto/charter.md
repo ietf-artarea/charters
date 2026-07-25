@@ -2,7 +2,7 @@
 
 The Agent Communication Protocols (agentproto) Working Group will work on defining protocol building blocks for enabling interoperability for agent applications across the Internet. For the purposes of this charter, an agent is a networked software component that selects at run time which other components it will communicate with in order to carry out a task on behalf of a principal. The definition does not depend on AI models; this work is motivated by agents built on them, but must not require one.
 
-AI agents are driving a change in how software is deployed. A task begun by one agent is decomposed and handed onward across others, operated by different parties, reached over different protocols, and chosen after the task is underway: a microservice deployment whose composition is decided at run time. Those participants have no interoperable way to establish that they are working on the same thing. Within one operator this is solved by convention, and the convention does not survive crossing trust boundaries. The working group's output is intended to be adopted by the agent communication protocols already in use, such as MCP and A2A, not to replace them.
+AI agents are driving a change in how software is deployed. A task begun by one agent is decomposed and handed onward across others, operated by different parties, reached over different protocols, and chosen after the task is underway: a microservice deployment whose composition is decided at run time. The interactions among these participants are pairwise, but a set of them cohere within a common frame of reference — the shared thing they are working on — and they have no interoperable way to establish that a given set of interactions shares one. Within one operator this is solved by convention, which does not survive crossing trust boundaries. The working group's output is intended to be adopted by the agent communication protocols already in use, such as MCP and A2A, not to replace them.
 
 # Key Considerations
 
@@ -24,7 +24,7 @@ The working group will produce the following standards track and informational d
 
 ## Interaction Reference and Binding (Standards Track)
 
-A reference to a unit of related activity spanning multiple agents and trust domains, with the means of proving it was legitimately bound to that activity. “Interaction” and “interaction reference” are provisional, to be replaced by the terminology deliverable below; the charter avoids naming the concept “identifier,” “context,” or “session,” each of which collides with an established meaning in an adjacent space (IAM, ML, and transport, respectively).
+A reference to the common frame of reference introduced above, with the means of proving it was legitimately bound to that frame. “Interaction” and “interaction reference” are provisional names for the frame and its reference, to be replaced by the terminology deliverable below; the charter avoids naming the concept “identifier,” “context,” or “session,” each of which collides with an established meaning in an adjacent space (IAM, ML, and transport, respectively).
 
 The specification will define:
 
