@@ -57,6 +57,7 @@ Foundational work will be documented through a set of informational Internet-Dra
 
 * **Use cases** focused on Agent-to-agent and Agent-to-tool communications, used to verify the suitability of existing protocols and the protocols being developed.
 * **Gap analysis and requirements** based on examination of existing de facto standard protocols implemented in open-source projects, from which necessary protocol requirements are derived.
+* **Auditability and attribution**: whether identifying the party responsible for an agent's actions, including between parties with no pre-established relationship, requires a durable notion of ownership, distinct from the runtime credentials that OAuth and WIMSE provide.
 
 # Coordination
 
