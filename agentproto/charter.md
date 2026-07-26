@@ -57,6 +57,7 @@ Foundational work will be documented through a set of informational Internet-Dra
 
 * **Use cases** focused on Agent-to-agent and Agent-to-tool communications, used to verify the suitability of existing protocols and the protocols being developed.
 * **Gap analysis and requirements** based on examination of existing de facto standard protocols implemented in open-source projects, from which necessary protocol requirements are derived.
+* **Naming and discovery**: whether existing Internet naming, discovery, and PKI infrastructure suffices for an agent to resolve a counterpart's endpoints, capabilities, and key material across administrative domains at run time, and to verify the binding between an identifier and its operator.
 
 # Coordination
 
@@ -64,7 +65,7 @@ This working group is expected to closely coordinate with other related IETF wor
 
 * **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE — on identity, authorization, and security considerations.
 * **Transport:** WebTransport, MoQ, QUIC, TSVWG — on data transport and session management.
-* **Discovery and Operations:** INT area, OPS area — on agent discovery and operational considerations.
+* **Naming, Discovery, and Operations:** DNSOP, DNSSD, INT area, OPS area — on agent naming, discovery, and operational considerations.
 
 If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them. The group is also expected to maintain close communication with open-source projects running under the Linux Foundation.
 
