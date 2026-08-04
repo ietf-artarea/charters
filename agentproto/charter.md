@@ -47,7 +47,7 @@ The framework will:
 * Allow multi-modal collaboration using varied data formats such as text, images, video, audio, and structured data with exchange of multi-modal contexts.
 * Describe the functional blocks, their relationships, and the mechanisms for structured, semi-structured, and multi-modal information exchange to support collaborative tasks across domains.
 * Describe agent-specific integration for agent authentication and authorization about how existing and emerging  mechanisms are composed and applied in AI agent scenarios, including the confirmation and evidence requirements for AI agent operations.
-* Enable an AI Agent to create independent identities and access tokens scoped to specific, behavior-driven permissions — including dynamic, context-dependent privileges and confirmation before acting. Required OAuth extensions for agent authorization sit with the OAuth WG; agent identity extensions sit with WIMSE WG.
+* Enable an agent acting on behalf of a user to use an independent identifier and obtain access tokens scoped to specific, behavior-driven permissions, including dynamic and context-dependent privileges and confirmation before acting. Any required OAuth extensions for agent authorization will be standardized in the OAuth WG.
 * Identify the protocol suite covering session management, transport, security, and identity building blocks.
 * The framework may be delivered as multiple standards-track documents, as the working group determines based on the structure and maturity of the building blocks.
 
