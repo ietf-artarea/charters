@@ -50,7 +50,7 @@ To ensure interoperability in agent communications, this informational document 
 
 # Coordination
 
-This working group is expected to closely coordinate with other related IETF working groups on dependencies of the framework and the agentic dialog management protocol, including security, transport, and discovery aspects:
+This working group is expected to closely coordinate with other related IETF working groups on dependencies of the reference architecture and the agentic dialog management protocol, including security, transport, and discovery aspects:
 
 * **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE - on identity, authorization, and security considerations.
 * **Transport:** WebTransport, MoQ, QUIC, TSVWG, httpbis - on data transport.
