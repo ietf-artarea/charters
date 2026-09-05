@@ -12,7 +12,7 @@ There are several considerations that are unique to AI Agent applications that n
 
 - AI Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
-- Dialogs of AI Agents with users, other AI Agents, and tools can be long-lived, depend on critical dialog context across various modalities (text, audio, video), and require very low latency, including support for fast barge-in and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple hops, intermediaries, and trust boundaries over time. This introduces new considerations around dialogs correlation, reliability, transport session management, and data transport.
+- Dialog between AI Agents and users, other AI Agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).   Such dialog requires very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialogs correlation, reliability, transport session management, and data transport.
 
 - To protect data exchanged between AI Agents (and between AI Agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data within dialog context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI Agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
 
@@ -22,13 +22,13 @@ The working group will produce the following standards-track and informational d
 
 ## Agentic Dialog Management Protocol (Standards Track)
 
-A standards-track protocol for the propagation of dialog context across *multiple* hops, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, allowing dialog context to follow participants as they move between devices/hosts or over time.
+A standards-track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, allowing dialog context to follow participants as they move between devices/hosts or over time.
 
 The specification will define:
 
 * Dialog management primitives to:
 
-    - Correlate dialogs, enabling agents to associate related interactions across multiple hops, trust boundaries, and over time.
+    - Correlate dialogs, enabling agents to associate related interactions across multiple intermediaries, trust boundaries, and over time.
     - Manage full dialog lifecycle, including establishment, modification, termination, and revocation of propagation relationships.
     - Provide scalable and resilient operation with recovery from network and server failures, and handle unreachability.
 
