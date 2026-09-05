@@ -31,6 +31,7 @@ The specification will define:
     - Correlate dialogs, enabling agents to associate related interactions across multiple hops, trust boundaries, and over time.
     - Manage full dialog lifecycle, including establishment, modification, termination, and revocation of propagation relationships.
     - Provide scalable and resilient operation with recovery from network and server failures, and handle unreachability.
+    - Carry references to signed records of dialog events, by content digest, as part of dialog context, without defining those records.
 
 * Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more modern IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases.
 
@@ -40,7 +41,7 @@ The protocol is designed to be usable by existing application-layer agent commun
 
 ## Reference Architecture (Informational)
 
-To ensure interoperability in agent communications, this informational document describes related protocol building blocks that the agentic dialog management protocol can reuse, including identity, authentication, authorization, and encryption, rather than defining new ones. This reference architecture will:
+To ensure interoperability in agent communications, this informational document describes related protocol building blocks that the agentic dialog management protocol can reuse, including identity, authentication, authorization, encryption, and evidence of dialog events and their outcomes, rather than defining new ones. This reference architecture will:
 
 * Define the terms used by the protocol deliverable.
 * Describe the functional blocks the protocol deliverable assume, and their relationships.
@@ -55,6 +56,7 @@ This working group is expected to closely coordinate with other related IETF wor
 * **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE - on identity, authorization, and security considerations.
 * **Transport:** WebTransport, MoQ, QUIC, TSVWG, httpbis - on data transport.
 * **Discovery and Operations:** INT area, OPS area - on agent discovery and operational considerations.
+* **Evidence and transparency:** SCITT, RATS, and the proposed AUDIT work — on verifiable records of agent actions and their outcomes, attestation of agent runtimes, and audit interaction models.
 
 If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them.
 
