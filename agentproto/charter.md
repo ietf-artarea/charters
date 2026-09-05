@@ -28,7 +28,7 @@ The specification will define:
 
 * Dialog management primitives to:
 
-    - Correlate dialogs, enabling agents to associate related interactions across multiple intermediaries, trust boundaries, and over time.
+    - Correlate dialogs, enabling agents to associate related interactions across multiple hops, trust boundaries, and over time.
     - Manage full dialog lifecycle, including establishment, modification, termination, and revocation of propagation relationships.
     - Provide scalable and resilient operation with recovery from network and server failures, and handle unreachability.
 
