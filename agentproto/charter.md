@@ -4,7 +4,7 @@ An AI agent is an autonomous, adaptive intelligent software system that uses AI 
 
 User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs between the participants. For all the interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the participants. The dialog context refers to the protocol-level metadata that enables the continuity and correlation of an agentic dialog, which is not the application-level data such as memory or other information that is fed into AI models.
 
-The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a framework to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
+The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a reference architecture to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
 
 # Key Considerations
 
