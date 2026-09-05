@@ -56,7 +56,7 @@ This working group is expected to closely coordinate with other related IETF wor
 * **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE - on identity, authorization, and security considerations.
 * **Transport:** WebTransport, MoQ, QUIC, TSVWG, httpbis - on data transport.
 * **Discovery and Operations:** INT area, OPS area - on agent discovery and operational considerations.
-* **Evidence and transparency:** SCITT, RATS, and the proposed AUDIT work — on verifiable records of agent actions and their outcomes, attestation of agent runtimes, and audit interaction models.
+* **Evidence and transparency:** SCITT, RATS, on software and hardware security.
 
 If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them.
 
