@@ -12,7 +12,7 @@ There are several considerations that are unique to AI Agent applications that n
 
 - AI Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
-- Dialog between AI Agents and users, other AI Agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).   Such dialog requires very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialogs correlation, reliability, transport session management, and data transport.
+- Dialog between AI Agents and users, other AI Agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).   Such dialog requires very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
 
 - To protect data exchanged between AI Agents (and between AI Agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data within dialog context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI Agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
 
@@ -46,7 +46,7 @@ To ensure interoperability in agent communications, this informational document 
 * Describe the functional blocks the protocol deliverable assume, and their relationships.
 
 ## Use Cases and Requirements (Informational)
-* Describe basic use cases and requirements that derive the protocol deliverable.
+* Describe basic use cases and requirements that drive the protocol deliverable.
 
 # Coordination
 
