@@ -31,7 +31,6 @@ The specification will define:
     - Correlate dialogs, enabling agents to associate related interactions across multiple hops, trust boundaries, and over time.
     - Manage full dialog lifecycle, including establishment, modification, termination, and revocation of propagation relationships.
     - Provide scalable and resilient operation with recovery from network and server failures, and handle unreachability.
-    - Carry references to required regulatory information.
 
 * Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more modern IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases.
 
