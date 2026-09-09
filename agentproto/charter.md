@@ -4,7 +4,7 @@ An AI agent is an autonomous, adaptive intelligent software system that uses AI 
 
 User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs between the participants. For all the interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the participants. The dialog context refers to the protocol-level metadata that enables the continuity and correlation of an agentic dialog, which is not the application-level data such as memory or other information that is fed into AI models.
 
-The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a framework to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
+The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a reference architecture to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
 
 # Key Considerations
 
@@ -12,7 +12,7 @@ There are several considerations that are unique to AI Agent applications that n
 
 - AI Agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
-- Dialogs of AI Agents with users, other AI Agents, and tools can be long-lived, depend on critical dialog context across various modalities (text, audio, video), and require very low latency, including support for fast barge-in and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple hops, intermediaries, and trust boundaries over time. This introduces new considerations around dialogs correlation, reliability, transport session management, and data transport.
+- Dialog between AI Agents and users, other AI Agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).   Such dialog requires very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context must often be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialogs correlation, reliability, transport session management, and data transport.
 
 - To protect data exchanged between AI Agents (and between AI Agents and tools) over potentially untrusted networks, particularly when handling sensitive information (such as personal data within dialog context), mechanisms are required to establish and verify identity, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI Agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
 
@@ -22,7 +22,7 @@ The working group will produce the following standards-track and informational d
 
 ## Agentic Dialog Management Protocol (Standards Track)
 
-A standards-track protocol for the propagation of dialog context across *multiple* hops, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, allowing dialog context to follow participants as they move between devices/hosts or over time.
+A standards-track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, allowing dialog context to follow participants as they move between devices/hosts or over time.
 
 The specification will define:
 
@@ -50,7 +50,7 @@ To ensure interoperability in agent communications, this informational document 
 
 # Coordination
 
-This working group is expected to closely coordinate with other related IETF working groups on dependencies of the framework and the agentic dialog management protocol, including security, transport, and discovery aspects:
+This working group is expected to closely coordinate with other related IETF working groups on dependencies of the reference architecture and the agentic dialog management protocol, including security, transport, and discovery aspects:
 
 * **Security:** Web Authorization Protocol (OAuth), webbotauth, WIMSE - on identity, authorization, and security considerations.
 * **Transport:** WebTransport, MoQ, QUIC, TSVWG, httpbis - on data transport.
