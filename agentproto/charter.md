@@ -1,6 +1,6 @@
 # Agent Communication Protocols (agentproto) Proposed Charter
 
-An AI agent is an autonomous, adaptive intelligent software system that uses AI models to complete a specific task on behalf of a human user or another AI agent. AI Agents often interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
+An AI agent is an autonomous, adaptive software system that uses AI models to complete a specific task on behalf of a human user or another AI agent. AI Agents often interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
 
 User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs between the participants. For all the interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the participants. The dialog context refers to the protocol-level metadata that enables the continuity and correlation of an agentic dialog, which is not the application-level data such as memory or other information that is fed into AI models.
 
@@ -43,7 +43,7 @@ The protocol is designed to be usable by existing application-layer agent commun
 To ensure interoperability in agent communications, this informational document describes related protocol building blocks that the agentic dialog management protocol can reuse, including identity, authentication, authorization, and encryption, rather than defining new ones. This reference architecture will:
 
 * Define the terms used by the protocol deliverable.
-* Describe the functional blocks the protocol deliverable assume, and their relationships.
+* Describe the functional blocks the protocol deliverable assumes, and their relationships.
 
 ## Use Cases and Requirements (Informational)
 * Describe basic use cases and requirements that drive the protocol deliverable.
@@ -59,6 +59,7 @@ This working group is expected to closely coordinate with other related IETF wor
 
 If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them.
 
+The working group will also coordinate with relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
 
 # Out of Scope
 
