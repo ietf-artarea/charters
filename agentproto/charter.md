@@ -34,7 +34,7 @@ The specification will define:
 
 * Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more modern IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases.
 
-* The working group shall describe a set of evaluation criteria for selecting one or more IETF protocols to support concrete bindings.
+The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The working group will describe a set of evaluation criteria used to select which bindings to specify.
 
 The working group will analyze the privacy implications of dialog correlation and specify mitigations.
 
