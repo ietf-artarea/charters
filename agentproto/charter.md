@@ -42,7 +42,7 @@ The working group will analyze the privacy implications of dialog correlation an
 
 Because dialog identifiers may persist across intermediaries and trust boundaries, the working group will analyze the privacy implications of dialog correlation and specify mitigations.
 
-The protocol is designed to be usable by existing application-layer agent communication protocols (e.g., MCP and A2A maintained by the Linux Foundation) through well-defined extension points, rather than replacing them.
+The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Changes to those protocols themselves are the responsibility of their respective maintainers and are, thus, out of scope of agentproto. 
 
 ## Reference Architecture (Informational)
 
