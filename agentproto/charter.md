@@ -1,6 +1,6 @@
 # Agent Communication Protocols (agentproto) Proposed Charter
 
-An AI agent is an autonomous, adaptive software system that uses AI models to complete a specific task on behalf of a human user, another AI agent, or an invoking system. AI agents often interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
+An AI agent is an autonomous, adaptive software system that uses AI models to complete a specific task on behalf of a human user, another AI agent, or an invoking system. AI agents interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
 
 User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs between the users, agents, and tools. For all the interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the participants. The dialog context refers to the protocol-level metadata that enables the continuity and correlation of an agentic dialog, which is not the application-level data such as memory or other information that is fed into AI models.
 
