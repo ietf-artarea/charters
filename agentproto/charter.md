@@ -36,7 +36,7 @@ The specification will define:
 
 * The working group shall describe a set of evaluation criteria for selecting one or more IETF protocols to support concrete bindings.
 
-The protocol is designed to be usable by existing application-layer agent communication protocols (e.g., MCP and A2A maintained by the Linux Foundation) through well-defined extension points, rather than replacing them.
+The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Any changes to those protocols themselves are the responsibility of their respective maintainers.
 
 ## Reference Architecture (Informational)
 
