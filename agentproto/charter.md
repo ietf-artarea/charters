@@ -22,7 +22,7 @@ The working group will produce the following standards-track and informational d
 
 ## Agentic Dialog Management Protocol (Standards Track)
 
-A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
+A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries, and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
 
 The specification will define:
 
@@ -34,7 +34,9 @@ The specification will define:
 
 * Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more modern IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases.
 
-* The working group shall describe a set of evaluation criteria for selecting one or more IETF protocols to support concrete bindings.
+The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The WG will describe a set of evaluation criteria used to select which bindings to specify.
+
+The working group will analyze the privacy implications of dialog correlation and specify mitigations.
 
 Because dialog identifiers may persist across intermediaries and trust boundaries, the working group will analyze the privacy implications of dialog correlation and specify mitigations.
 
@@ -48,7 +50,7 @@ To ensure interoperability in agent communications, this informational document 
 * Describe the functional blocks the protocol deliverable assumes, and their relationships.
 
 ## Use Cases and Requirements (Informational)
-* Describe basic use cases and requirements that drive the protocol deliverable.
+* Describe basic use cases and requirements that drive the protocol deliverable. The deliverable will also describe the deployment model(s).
 
 # Coordination
 
@@ -59,7 +61,7 @@ This working group is expected to closely coordinate with other related IETF wor
 * **Discovery and Operations:** INT area, OPS area - on agent discovery and operational considerations.
 * **Evidence and transparency:** SCITT, RATS, on software and hardware security.
 
-If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them.
+If the agentproto WG identifies any gaps in protocols specified by other active WGs, those gaps will be raised with the relevant WGs for decisions on how best to handle them, which may include the work being carried out in that WG or, with its agreement, in agentproto WG.
 
 The working group will also coordinate with relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
 
