@@ -36,7 +36,7 @@ The specification will define:
 
 * The working group shall describe a set of evaluation criteria for selecting one or more IETF protocols to support concrete bindings.
 
-The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Any changes to those protocols themselves are the responsibility of their respective maintainers.
+The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Changes to those protocols themselves are the responsibility of their respective maintainers and are, thus, out of scope of agentproto. 
 
 ## Reference Architecture (Informational)
 
