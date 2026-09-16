@@ -22,7 +22,7 @@ The working group will produce the following standards-track and informational d
 
 ## Agentic Dialog Management Protocol (Standards Track)
 
-A standards-track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
+A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
 
 The specification will define:
 
