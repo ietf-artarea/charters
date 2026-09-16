@@ -66,7 +66,7 @@ This working group is expected to closely coordinate with other related IETF wor
 
 If the agentproto WG identifies any gaps in protocols specified by other active WGs, those gaps will be raised with the relevant WGs for decisions on how best to handle them, which may include the work being carried out in that WG or, with its agreement, in agentproto WG.
 
-The working group will also coordinate with relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
+The WG will also coordinate with and actively seek review of its deliverables from relevant standardization and open source efforts outside the IETF to understand deployed practices and avoid unnecessary divergence.
 
 # Out of Scope
 
