@@ -48,7 +48,7 @@ To ensure interoperability in agent communications, this informational document 
 * Describe the functional blocks the protocol deliverable assumes, and their relationships.
 
 ## Use Cases and Requirements (Informational)
-* Describe basic use cases and requirements that drive the protocol deliverable.
+* Describe basic use cases and requirements that drive the protocol deliverable. The deliverable will also describe the deployment model(s).
 
 # Coordination
 
