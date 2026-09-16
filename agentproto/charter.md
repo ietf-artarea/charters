@@ -59,7 +59,7 @@ This working group is expected to closely coordinate with other related IETF wor
 
 If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them.
 
-The working group will also coordinate with relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
+The working group will also coordinate with and actively seek review of deliverables from relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
 
 # Out of Scope
 
