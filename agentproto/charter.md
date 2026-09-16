@@ -22,7 +22,7 @@ The working group will produce the following standards-track and informational d
 
 ## Agentic Dialog Management Protocol (Standards Track)
 
-A standards-track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, allowing dialog context to follow participants as they move between devices/hosts or over time.
+A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries, and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
 
 The specification will define:
 
@@ -36,6 +36,8 @@ The specification will define:
 
 The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The WG will describe a set of evaluation criteria used to select which bindings to specify.
 
+The working group will analyze the privacy implications of dialog correlation and specify mitigations.
+
 The protocol is designed to be usable by existing application-layer agent communication protocols (e.g., MCP and A2A maintained by the Linux Foundation) through well-defined extension points, rather than replacing them.
 
 ## Reference Architecture (Informational)
@@ -46,7 +48,7 @@ To ensure interoperability in agent communications, this informational document 
 * Describe the functional blocks the protocol deliverable assumes, and their relationships.
 
 ## Use Cases and Requirements (Informational)
-* Describe basic use cases and requirements that drive the protocol deliverable.
+* Describe basic use cases and requirements that drive the protocol deliverable. The deliverable will also describe the deployment model(s).
 
 # Coordination
 
