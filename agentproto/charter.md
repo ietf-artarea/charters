@@ -57,7 +57,7 @@ This working group is expected to closely coordinate with other related IETF wor
 * **Discovery and Operations:** INT area, OPS area - on agent discovery and operational considerations.
 * **Evidence and transparency:** SCITT, RATS, on software and hardware security.
 
-If the working group needs any changes to or extensions of protocols specified by other working groups, those issues will be raised with the relevant working groups for decisions on how best to handle them, which may include the work being carried out in that working group or, with its agreement, in agentproto.
+If the agentproto WG identifies any gaps in protocols specified by other active WGs, those gaps will be raised with the relevant WGs for decisions on how best to handle them, which may include the work being carried out in that WG or, with its agreement, in agentproto WG.
 
 The working group will also coordinate with relevant standards and open source efforts outside the IETF to understand deployed practice and avoid unnecessary divergence.
 
