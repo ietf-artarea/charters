@@ -6,7 +6,7 @@ User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs bet
 
 The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a reference architecture to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
 
-The agentic dialog management protocol neither replaces application-layer agent communication protocols nor defines a new transport. It defines dialog identifiers, lifecycle semantics, and the propagation of dialog context, together with bindings specifying how that context is carried over existing IETF protocols. The dialog context is defined independently of application design: a participant that understands it can correlate and maintain a dialog without the protocol constraining how the application is structured or what content it exchanges.
+The agentic dialog management protocol neither replaces application-layer agent communication protocols nor defines a new transport protocol. It defines dialog identifiers, lifecycle semantics, and the propagation of dialog context, together with bindings specifying how that context is carried over existing IETF protocols. A dialog context is defined independently of an application design: an application participant that understands it can correlate and maintain a dialog without the protocol constraining how the application is structured or what content it exchanges.
 
 # Key Considerations
 
