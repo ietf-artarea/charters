@@ -72,7 +72,7 @@ The following topics are explicitly out of scope for this working group:
 
 - Implementation details of AI agents, including definition of AI models, backend AI infrastructure network and protocols, agent reasoning algorithms, or tool-specific business logic.
 
-- Standardization of agent behavior, decision-making, or planning semantics.
+- Standardization of agent decision-making or planning semantics, as distinct from the behavior this protocol requires of its implementations.
 
 - AI agent behavioral security (e.g., preventing the AI model itself from hallucinating, though mitigating the impact of hallucinations via protocol-level user confirmation is in scope).
 
