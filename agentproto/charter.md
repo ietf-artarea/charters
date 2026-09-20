@@ -26,6 +26,8 @@ The working group will produce the following standards-track and informational d
 
 A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries, and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
 
+This deliverable does not define a new wire protocol with its own message framing: it defines the dialog context, its serialization, and its lifecycle semantics, which the transport bindings carry using the mechanisms of existing IETF protocols.
+
 The specification will define:
 
 * Dialog management primitives to:
