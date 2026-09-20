@@ -77,3 +77,5 @@ The following topics are explicitly out of scope for this working group:
 - AI agent behavioral security (e.g., preventing the AI model itself from hallucinating, though mitigating the impact of hallucinations via protocol-level user confirmation is in scope).
 
 - The design of human to agent user interfaces, client application UX, or the rendering of agent outputs on end-user devices
+
+- Audit data structures and their production, validation, or consumption, though dialog identifiers may be used in auditing.
