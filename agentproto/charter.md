@@ -40,7 +40,7 @@ The agentic dialog management protocol may be bound to more than one underlying 
 
 Because dialog identifiers may persist across intermediaries and trust boundaries, the working group will analyze the privacy implications of dialog correlation and specify mitigations.
 
-The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Changes to those protocols themselves are the responsibility of their respective maintainers and are, thus, out of scope of agentproto.
+The dialog context is defined so that existing application-layer agent communication protocols (e.g., the Model Context Protocol (MCP) and the Agent2Agent (A2A) protocol) can carry it using their own mechanisms. If required, any related change to those protocols themselves would be the responsibility of their respective maintainers and are, thus, out of scope of agentproto.
 
 ## Reference Architecture (Informational)
 
