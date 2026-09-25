@@ -38,7 +38,7 @@ The specification will define:
 
 The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The working group will describe a set of evaluation criteria used to select which bindings to specify.
 
-Because dialog identifiers may persist across intermediaries and trust boundaries, they can be used to link interactions that would otherwise be separate. The working group will analyze this privacy risk and specify mitigations.
+Because dialog identifiers may persist across intermediaries and trust boundaries, this could trigger privacy risks, such as using these identifiers to link interactions that would otherwise be separate. The working group will analyze the privacy risks and specify mitigations.
 
 The protocol will define extension points through which existing application-layer agent communication protocols (e.g., MCP and A2A) can make use of it. Changes to those protocols themselves are the responsibility of their respective maintainers and are, thus, out of scope of agentproto.
 
