@@ -6,13 +6,13 @@ User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs bet
 
 The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a reference architecture to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
 
-The agentic dialog management protocol neither replaces application-layer agent communication protocols nor defines a new transport protocol. It defines dialog identifiers, lifecycle semantics, and the propagation of dialog context, together with bindings specifying how that context is carried over existing IETF protocols. A dialog context is defined independently of an application design: an application participant that understands it can correlate and maintain a dialog without the protocol constraining how the application is structured or what content it exchanges.
+The agentic dialog management protocol neither replaces application-layer agent communication protocols nor defines a new transport protocol. It defines dialog identifiers, lifecycle semantics, and the propagation of dialog context, together with bindings specifying how that context is carried over existing IETF protocols. A dialog context is defined independently of any particular application: a participant that understands the dialog context can correlate and maintain a dialog, and the protocol does not constrain how the application is structured or what content it exchanges.
 
 # Key Considerations
 
 There are several considerations that are unique to AI agent applications that need to be addressed while working on developing the building blocks:
 
-- AI agents act as autonomous software entities that may need to be authenticated independently of the users they represent. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
+- AI agents act as autonomous software entities that may need to be authenticated independently of the users who delegated authority to them. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
 - Dialog between AI agents and users, other AI agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).  Some agentic dialogs, such as those involving interactive voice, require very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context may need to be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
 
@@ -38,7 +38,7 @@ The specification will define:
 
 The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The working group will describe a set of evaluation criteria used to select which bindings to specify.
 
-Because dialog identifiers may persist across intermediaries and trust boundaries, the working group will analyze the privacy implications of dialog correlation and specify mitigations.
+Because dialog identifiers may persist across intermediaries and trust boundaries, this could trigger privacy risks, such as using these identifiers to link interactions that would otherwise be separate. The working group will analyze the privacy risks and specify mitigations.
 
 The dialog context is defined so that existing application-layer agent communication protocols (e.g., the Model Context Protocol (MCP) and the Agent2Agent (A2A) protocol) can carry it using their own mechanisms. If required, any related change to those protocols themselves would be the responsibility of their respective maintainers and are, thus, out of scope of agentproto.
 
