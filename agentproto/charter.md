@@ -74,7 +74,7 @@ The following topics are explicitly out of scope for this working group:
 
 - Standardization of agent decision-making or planning semantics, as distinct from the behavior this protocol requires of its implementations.
 
-- AI agent behavioral security (e.g., preventing the AI model itself from hallucinating, though mitigating the impact of hallucinations via protocol-level user confirmation is in scope).
+- AI agent behavioral security, such as preventing the AI model itself from hallucinating.
 
 - The design of human to agent user interfaces, client application UX, or the rendering of agent outputs on end-user devices
 
