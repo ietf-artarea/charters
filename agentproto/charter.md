@@ -1,8 +1,8 @@
 # Agent Communication Protocols (agentproto) Proposed Charter
 
-An AI agent is an autonomous, adaptive software system that uses AI models to complete a specific task on behalf of a human user, another AI agent, or an invoking system. AI agents interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
+An AI agent is an autonomous, adaptive software system that uses AI models to complete a specific task. A user agent acts on behalf of an individual human user; a service agent acts on behalf of a service or platform operator. AI agents interact with users and other agents through multiple modalities, including voice, video, and text, and are capable of independent decision-making, tool invocation, and task completion.
 
-User-to-agent, agent-to-agent, and agent-to-tool interactions create dialogs between the users, agents, and tools. For all the interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the participants. A dialog is the correlated sequence of interactions between two or more participants over the course of a task. The dialog context consists of the identifiers and lifecycle state needed to correlate and maintain an agentic dialog. It does not include the content exchanged with AI models, such as conversation memory, retrieved documents, or prompts.
+Interactions between a user and their user agent, between two user agents, between a user agent and a service agent, between two service agents, and between any agent and the tools it invokes, create dialogs. For all these interactions, there are common protocol requirements to ensure the correlation and maintenance of the created dialogs and the propagation of dialog context between the agents, users, and tools involved. A dialog is the correlated sequence of interactions between two or more of these parties over the course of a task. The dialog context consists of the identifiers and lifecycle state needed to correlate and maintain an agentic dialog. It does not include the content exchanged with AI models, such as conversation memory, retrieved documents, or prompts.
 
 The scope of Agent Communication Protocols (agentproto) Working Group is to define a common baseline agentic dialog management protocol and build a reference architecture to integrate related protocol building blocks, enabling interoperability across platforms and vendors.
 
@@ -13,6 +13,8 @@ The agentic dialog management protocol neither replaces application-layer agent 
 There are several considerations that are unique to AI agent applications that need to be addressed while working on developing the building blocks:
 
 - AI agents act as autonomous software entities that may need to be authenticated independently of the users who delegated authority to them. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
+
+- A user agent is accountable to, and controlled by, the individual it represents; a service agent is accountable to, and controlled by, the service or platform operator it represents. Roles, delegations and capabilities are different and can lead to conflicting trust, accountability, and privacy requirements. The working group will ensure that the protocol's primitives do not assume symmetric trust or accountability relationships between user agents and service agents, and will treat any asymmetries explicitly in its privacy analysis.
 
 - Dialog between AI agents and users, other AI agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).  Some agentic dialogs, such as those involving interactive voice, require very low latency. Dialog context may need to be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
 
@@ -38,7 +40,7 @@ The specification will define:
 
 The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The working group will describe a set of evaluation criteria used to select which bindings to specify.
 
-Because dialog identifiers may persist across intermediaries and trust boundaries, this could trigger privacy risks, such as using these identifiers to link interactions that would otherwise be separate. The working group will analyze the privacy risks and specify mitigations.
+Because dialog identifiers may persist across intermediaries and trust boundaries, this could trigger privacy risks, such as using these identifiers to link interactions that would otherwise be separate. The working group will analyze the privacy risks and specify mitigations. This analysis will explicitly address the risk that identifiers or correlation mechanisms designed to meet the accountability needs of service agents could, if applied uniformly to user agents, undermine the privacy of the individuals those user agents represent.
 
 The dialog context is defined so that existing application-layer agent communication protocols (e.g., the Model Context Protocol (MCP) and the Agent2Agent (A2A) protocol) can carry it using their own mechanisms. If required, any related change to those protocols themselves would be the responsibility of their respective maintainers and are, thus, out of scope of agentproto.
 
