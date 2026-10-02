@@ -16,7 +16,7 @@ There are several considerations that are unique to AI agent applications that n
 
 - Dialog between AI agents and users, other AI agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).  Some agentic dialogs, such as those involving interactive voice, require very low latency. Dialog context may need to be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
 
-- To protect data exchanged between AI agents and users, other AI agents, and tools over potentially untrusted networks, particularly when handling sensitive information (such as personal data within dialog context), mechanisms are required to establish and verify identity of agents and of the users on whose behalf they act, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
+- To protect data exchanged between AI agents and users, other AI agents, and tools over potentially untrusted networks, particularly when handling sensitive information (such as personal data in dialog context), mechanisms are required to establish and verify the identities of agents and the users on whose behalf they act. These mechanisms need to ensure confidentiality, integrity, and authenticity of exchanged data and delegated authorization across AI agent chains. This raises new requirements for protocol-level security and privacy mechanisms.
 
 # Deliverables
 
@@ -50,7 +50,11 @@ To ensure interoperability in agent communications, this informational document 
 * Describe the functional blocks the protocol deliverable assumes, and their relationships.
 
 ## Use Cases and Requirements (Informational)
-* Describe basic use cases and requirements that drive the protocol deliverable. The deliverable will also describe the deployment model(s).
+
+This informational document will:
+
+- Describe the basic use cases and requirements that drive the development of the protocol deliverable.
+- Describe the deployment model(s).
 
 # Coordination
 
