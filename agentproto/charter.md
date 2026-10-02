@@ -14,7 +14,7 @@ There are several considerations that are unique to AI agent applications that n
 
 - AI agents act as autonomous software entities that may need to be authenticated independently of the users who delegated authority to them. Establishing verifiable agent identity that is distinct from user identity enables independent revocation of agent access, scoping of agent permissions to a subset of user permissions, and auditability of agent-initiated actions distinct from user-initiated actions.
 
-- Dialog between AI agents and users, other AI agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).  Some agentic dialogs, such as those involving interactive voice, require very low latency, including support for fast barge-in (a voice technology feature that allows a user to immediately interrupt an AI voice agent or automated system while it is talking, causing the system to stop playback instantly) and smooth interruption handling. Dialog context may need to be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
+- Dialog between AI agents and users, other AI agents, and tools can be long-lived; and they depend on critical dialog context across various modalities (text, audio, video).  Some agentic dialogs, such as those involving interactive voice, require very low latency. Dialog context may need to be propagated and remain coherent across multiple intermediaries, and trust boundaries over time. This introduces new considerations around dialog correlation, reliability, transport session management, and data transport.
 
 - To protect data exchanged between AI agents and users, other AI agents, and tools over potentially untrusted networks, particularly when handling sensitive information (such as personal data within dialog context), mechanisms are required to establish and verify identity of agents and of the users on whose behalf they act, ensure confidentiality, integrity, authenticity of the exchanged data, and delegated authorization across AI agent chains. This introduces new considerations around protocol-level security and privacy mechanisms.
 
@@ -74,7 +74,7 @@ The following topics are explicitly out of scope for this working group:
 
 - Standardization of agent decision-making or planning semantics, as distinct from the behavior this protocol requires of its implementations.
 
-- AI agent behavioral security (e.g., preventing the AI model itself from hallucinating, though mitigating the impact of hallucinations via protocol-level user confirmation is in scope).
+- AI agent behavioral security, such as preventing the AI model itself from hallucinating.
 
 - The design of human to agent user interfaces, client application UX, or the rendering of agent outputs on end-user devices
 
