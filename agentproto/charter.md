@@ -26,7 +26,7 @@ The working group will produce the following standards-track and informational d
 
 A Standards Track protocol for the propagation of dialog context across *multiple* intermediaries, trust boundaries, and transformation of modalities, enabling interoperable *agentic dialogs*. This protocol serves as a foundation for dialog continuity and correlation in user-to-agent, agent-to-agent, and agent-to-tool interactions, enabling dialog continuity when a participant changes device or network attachment, or when a dialog resumes after an interruption.
 
-The specification will define:
+One or more Standards Track documents that define:
 
 * Dialog management primitives to:
 
@@ -34,7 +34,7 @@ The specification will define:
     - Manage full dialog lifecycle, including establishment, modification, termination, and revocation of propagation relationships.
     - Provide scalable and resilient operation with recovery from failures of network paths and intermediaries, and handle unreachability.
 
-* Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more existing IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MOQ, based on the anticipated use cases.
+* Transport bindings: specifying how the dialog context with its associated metadata are carried over one or more existing IETF protocols, such as HTTP, QUIC, WebTransport, WebRTC or MoQ, based on the anticipated use cases.
 
 The agentic dialog management protocol may be bound to more than one underlying IETF protocol. The working group will describe a set of evaluation criteria used to select which bindings to specify.
 
